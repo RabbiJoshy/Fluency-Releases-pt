@@ -1,0 +1,4670 @@
+{
+ "schema": "merge-exceptions/v3",
+ "noun_merge_rule": "noun-merge/v2",
+ "language": "pt",
+ "source": "wiktionary:enwiktionary-2026-08-20/kaikki.org-dictionary-Portuguese.jsonl",
+ "release_id": "pt-speech-v25-top1000-decide-v2-slim",
+ "contractions": [
+  "ajudá-lo",
+  "ao",
+  "aonde",
+  "aos",
+  "bagarai",
+  "ca",
+  "cas",
+  "cum",
+  "cuma",
+  "cumas",
+  "cuns",
+  "d'alho",
+  "d'oeste",
+  "d'ouro",
+  "d'água",
+  "da",
+  "dacolá",
+  "dalgum",
+  "dalguma",
+  "dalgumas",
+  "dalguns",
+  "dali",
+  "daonde",
+  "daquela",
+  "daquelas",
+  "daquele",
+  "daqueles",
+  "daqui",
+  "daquilo",
+  "das",
+  "daí",
+  "dela",
+  "delas",
+  "dele",
+  "deles",
+  "dessa",
+  "dessas",
+  "desse",
+  "desses",
+  "desta",
+  "destas",
+  "deste",
+  "destes",
+  "deu",
+  "disso",
+  "disto",
+  "do",
+  "dos",
+  "doutras",
+  "doutro",
+  "dum",
+  "duma",
+  "dumas",
+  "duns",
+  "lha",
+  "lhas",
+  "lho",
+  "lhos",
+  "ma",
+  "mas",
+  "matopiba",
+  "mo",
+  "mos",
+  "n'água",
+  "na",
+  "nalgum",
+  "nalguma",
+  "naquela",
+  "naquelas",
+  "naquele",
+  "naqueles",
+  "naquilo",
+  "nas",
+  "nela",
+  "nelas",
+  "nele",
+  "neles",
+  "nessa",
+  "nessas",
+  "nesse",
+  "nesses",
+  "nesta",
+  "nestas",
+  "neste",
+  "nestes",
+  "nisso",
+  "nisto",
+  "no",
+  "nos",
+  "noutra",
+  "noutras",
+  "noutro",
+  "noutros",
+  "num",
+  "numa",
+  "numas",
+  "nuns",
+  "né",
+  "pela",
+  "pelas",
+  "pelo",
+  "pelos",
+  "pra",
+  "pras",
+  "praí",
+  "pressa",
+  "pressas",
+  "presse",
+  "presses",
+  "pro",
+  "pros",
+  "prum",
+  "pruma",
+  "prumas",
+  "pruns",
+  "pá",
+  "pó",
+  "saporra",
+  "ta",
+  "to",
+  "vocência",
+  "vossência",
+  "xô",
+  "à",
+  "àquela",
+  "àquelas",
+  "àquele",
+  "àqueles",
+  "àquilo",
+  "às"
+ ],
+ "keys": {
+  "que": "que",
+  "a": "",
+  "o": "o",
+  "de": "de",
+  "não": "",
+  "é": "",
+  "e": "",
+  "um": "",
+  "para": "para",
+  "eu": "",
+  "se": "",
+  "me": "me",
+  "no": "",
+  "uma": "",
+  "está": "",
+  "por": "por",
+  "com": "com",
+  "os": "",
+  "do": "",
+  "te": "te",
+  "em": "em",
+  "ele": "",
+  "como": "como",
+  "bem": "",
+  "isso": "isso",
+  "mas": "",
+  "da": "",
+  "você": "você",
+  "as": "",
+  "sim": "",
+  "na": "",
+  "mais": "",
+  "aqui": "",
+  "meu": "",
+  "vamos": "",
+  "muito": "muito",
+  "foi": "",
+  "ela": "",
+  "fazer": "fazer",
+  "estou": "estar",
+  "vai": "ir",
+  "tem": "ter",
+  "ser": "",
+  "nos": "",
+  "isto": "isto",
+  "tu": "tu",
+  "já": "já",
+  "minha": "",
+  "só": "só",
+  "tudo": "",
+  "ao": "",
+  "tenho": "ter",
+  "agora": "",
+  "vou": "ir",
+  "porque": "porque",
+  "sei": "",
+  "quando": "",
+  "nada": "",
+  "à": "",
+  "há": "haver",
+  "estás": "estar",
+  "era": "",
+  "seu": "",
+  "então": "então",
+  "dizer": "dizer",
+  "lá": "",
+  "ter": "ter",
+  "sua": "",
+  "onde": "onde",
+  "quem": "quem",
+  "esta": "este",
+  "pode": "poder",
+  "ou": "",
+  "coisa": "",
+  "nós": "",
+  "quero": "",
+  "lhe": "você",
+  "todos": "",
+  "sou": "ser",
+  "eles": "",
+  "são": "",
+  "estava": "estar",
+  "ver": "ver",
+  "este": "",
+  "dos": "",
+  "disse": "dizer",
+  "mesmo": "",
+  "casa": "",
+  "nunca": "",
+  "bom": "bom",
+  "posso": "poder",
+  "mim": "mim",
+  "vez": "",
+  "estão": "estar",
+  "ir": "ir",
+  "quer": "",
+  "temos": "ter",
+  "sobre": "sobre",
+  "favor": "",
+  "assim": "assim",
+  "até": "até",
+  "acho": "achar",
+  "algo": "algo",
+  "tempo": "",
+  "ainda": "ainda",
+  "sabe": "saber",
+  "certo": "certo",
+  "também": "também",
+  "falar": "",
+  "estamos": "estar",
+  "vida": "",
+  "quê": "",
+  "obrigado": "",
+  "pai": "",
+  "sabes": "saber",
+  "tão": "tão",
+  "melhor": "melhor",
+  "tens": "ter",
+  "si": "",
+  "deus": "",
+  "una": "",
+  "noite": "noite",
+  "talvez": "talvez",
+  "tua": "",
+  "teu": "",
+  "parece": "parecer",
+  "depois": "depois",
+  "dia": "",
+  "todo": "",
+  "sempre": "sempre",
+  "estar": "estar",
+  "sem": "sem",
+  "ti": "tu",
+  "nem": "nem",
+  "alguém": "",
+  "mãe": "mãe",
+  "anos": "",
+  "alguma": "algum",
+  "das": "",
+  "tinha": "",
+  "antes": "",
+  "senhor": "",
+  "homem": "",
+  "claro": "",
+  "és": "",
+  "coisas": "",
+  "dele": "",
+  "vocês": "vocês",
+  "olá": "olá",
+  "pelo": "",
+  "pessoas": "",
+  "boa": "",
+  "faz": "fazer",
+  "verdade": "",
+  "tipo": "",
+  "ficar": "ficar",
+  "dois": "",
+  "esse": "",
+  "essa": "",
+  "mi": "",
+  "preciso": "",
+  "dar": "dar",
+  "apenas": "apenas",
+  "vais": "ir",
+  "diz": "dizer",
+  "podemos": "poder",
+  "grande": "",
+  "saber": "",
+  "aí": "",
+  "trabalho": "",
+  "pouco": "pouco",
+  "espera": "",
+  "queres": "querer",
+  "ninguém": "",
+  "outra": "",
+  "dinheiro": "dinheiro",
+  "comigo": "comigo",
+  "fora": "",
+  "qualquer": "qualquer",
+  "deve": "dever",
+  "toda": "",
+  "vão": "",
+  "mundo": "mundo",
+  "qual": "qual",
+  "disso": "",
+  "pela": "",
+  "hoje": "hoje",
+  "ok": "",
+  "seus": "",
+  "lugar": "",
+  "amigo": "",
+  "seja": "ser",
+  "vá": "ir",
+  "mulher": "",
+  "meus": "",
+  "podes": "poder",
+  "menos": "",
+  "olha": "",
+  "nosso": "",
+  "nossa": "",
+  "queria": "querer",
+  "daqui": "",
+  "filho": "",
+  "outro": "outro",
+  "nome": "nome",
+  "problema": "problema",
+  "pois": "pois",
+  "num": "",
+  "mal": "",
+  "certeza": "",
+  "quanto": "quanto",
+  "será": "",
+  "fez": "",
+  "dela": "",
+  "sair": "sair",
+  "ajudar": "ajudar",
+  "parte": "",
+  "todas": "",
+  "cara": "",
+  "volta": "",
+  "novo": "",
+  "desculpa": "",
+  "carro": "carro",
+  "aconteceu": "acontecer",
+  "vi": "",
+  "têm": "ter",
+  "dentro": "dentro",
+  "hora": "hora",
+  "merda": "",
+  "sério": "",
+  "contigo": "contigo",
+  "pensar": "pensar",
+  "lado": "",
+  "gente": "",
+  "cá": "",
+  "às": "",
+  "embora": "embora",
+  "três": "",
+  "nas": "",
+  "vezes": "",
+  "algum": "algum",
+  "más": "mau",
+  "deixar": "deixar",
+  "passa": "",
+  "primeiro": "",
+  "dá": "dar",
+  "vem": "",
+  "ei": "ei",
+  "matar": "matar",
+  "deixa": "",
+  "encontrar": "encontrar",
+  "tentar": "tentar",
+  "amor": "amor",
+  "pra": "",
+  "consigo": "",
+  "sinto": "sentir",
+  "entre": "entre",
+  "tarde": "",
+  "numa": "",
+  "momento": "momento",
+  "desde": "desde",
+  "tal": "",
+  "voltar": "voltar",
+  "aos": "",
+  "desculpe": "desculpar",
+  "fui": "",
+  "aquele": "aquele",
+  "pensei": "pensar",
+  "atrás": "atrás",
+  "querida": "",
+  "somos": "ser",
+  "suas": "",
+  "sabia": "saber",
+  "ali": "ali",
+  "dias": "",
+  "obrigada": "",
+  "duas": "dois",
+  "amigos": "",
+  "vê": "",
+  "horas": "hora",
+  "levar": "levar",
+  "caso": "",
+  "podem": "poder",
+  "porquê": "",
+  "sido": "ser",
+  "tanto": "",
+  "acha": "",
+  "razão": "razão",
+  "tenha": "ter",
+  "forma": "",
+  "homens": "",
+  "gosto": "",
+  "diga": "dizer",
+  "realmente": "realmente",
+  "precisa": "precisar",
+  "anda": "",
+  "nenhum": "nenhum",
+  "frente": "frente",
+  "uns": "",
+  "família": "família",
+  "cabeça": "cabeça",
+  "foram": "",
+  "pronto": "",
+  "ajuda": "",
+  "sé": "",
+  "entrar": "entrar",
+  "cada": "cada",
+  "seria": "ser",
+  "fiz": "fazer",
+  "estas": "este",
+  "minutos": "",
+  "pessoa": "",
+  "passar": "passar",
+  "cidade": "cidade",
+  "fica": "ficar",
+  "contra": "contra",
+  "deles": "",
+  "feliz": "feliz",
+  "outros": "",
+  "polícia": "polícia",
+  "vos": "vos",
+  "cima": "",
+  "espero": "esperar",
+  "for": "",
+  "achas": "achar",
+  "fosse": "",
+  "podia": "poder",
+  "quase": "",
+  "ah": "ah",
+  "alguns": "algum",
+  "devia": "dever",
+  "ouvir": "ouvir",
+  "durante": "",
+  "ia": "",
+  "amanhã": "",
+  "chegar": "chegar",
+  "nova": "",
+  "deixe": "deixar",
+  "ideia": "",
+  "morto": "",
+  "maneira": "",
+  "arma": "",
+  "cuidado": "",
+  "importa": "importar",
+  "poderia": "poder",
+  "conta": "",
+  "porta": "",
+  "minhas": "",
+  "semana": "",
+  "história": "história",
+  "medo": "",
+  "enquanto": "enquanto",
+  "aquela": "aquele",
+  "morrer": "morrer",
+  "aquilo": "aquele",
+  "morte": "",
+  "primeira": "",
+  "caminho": "",
+  "juntos": "junto",
+  "estado": "",
+  "ano": "",
+  "digo": "",
+  "trabalhar": "trabalhar",
+  "rápido": "rápido",
+  "irmão": "",
+  "importante": "importante",
+  "lhes": "lhes",
+  "sorte": "sorte",
+  "vir": "vir",
+  "precisamos": "precisar",
+  "tive": "ter",
+  "usar": "usar",
+  "neste": "",
+  "estes": "este",
+  "feito": "",
+  "algumas": "algum",
+  "problemas": "",
+  "desta": "",
+  "vejo": "ver",
+  "quarto": "",
+  "significa": "significar",
+  "poder": "",
+  "faça": "fazer",
+  "causa": "",
+  "amo": "",
+  "difícil": "difícil",
+  "única": "único",
+  "pessoal": "",
+  "olhos": "",
+  "acabou": "acabar",
+  "sangue": "sangue",
+  "perto": "perto",
+  "última": "",
+  "comer": "",
+  "cinco": "",
+  "senhora": "",
+  "logo": "",
+  "rapaz": "",
+  "viu": "ver",
+  "faço": "fazer",
+  "espere": "esperar",
+  "mãos": "",
+  "fazendo": "fazer",
+  "manhã": "",
+  "nossos": "",
+  "terra": "",
+  "guerra": "guerra",
+  "acredito": "acreditar",
+  "água": "",
+  "filha": "",
+  "jogo": "",
+  "buscar": "buscar",
+  "mesma": "mesmo",
+  "segundo": "",
+  "deu": "",
+  "óptimo": "",
+  "acontecer": "acontecer",
+  "contar": "contar",
+  "querem": "querer",
+  "querido": "",
+  "fala": "",
+  "capitão": "",
+  "lamento": "",
+  "adeus": "adeus",
+  "ouvi": "ouvir",
+  "corpo": "corpo",
+  "nisso": "",
+  "começar": "começar",
+  "meio": "",
+  "dormir": "dormir",
+  "tirar": "tirar",
+  "sabemos": "saber",
+  "número": "número",
+  "idiota": "",
+  "meses": "",
+  "tomar": "tomar",
+  "olhe": "olhar",
+  "teve": "ter",
+  "chefe": "chefe",
+  "suficiente": "",
+  "havia": "haver",
+  "seguro": "",
+  "umas": "um",
+  "nenhuma": "nenhum",
+  "disto": "",
+  "escola": "escola",
+  "parar": "parar",
+  "ouve": "ouvir",
+  "deste": "",
+  "dólares": "",
+  "calma": "",
+  "marido": "",
+  "perder": "perder",
+  "teus": "",
+  "maior": "maior",
+  "fim": "",
+  "esperar": "esperar",
+  "sabem": "saber",
+  "mão": "mão",
+  "sentir": "sentir",
+  "ontem": "",
+  "venha": "vir",
+  "baixo": "",
+  "eram": "ser",
+  "muitas": "muito",
+  "coração": "coração",
+  "mulheres": "",
+  "devo": "dever",
+  "bastante": "",
+  "quatro": "",
+  "agente": "",
+  "crianças": "",
+  "segurança": "segurança",
+  "elas": "elas",
+  "pára": "pára",
+  "morreu": "morrer",
+  "gostaria": "gostar",
+  "rapazes": "",
+  "teria": "ter",
+  "pedir": "pedir",
+  "visto": "",
+  "viver": "",
+  "festa": "",
+  "fácil": "fácil",
+  "conseguir": "conseguir",
+  "velho": "",
+  "procura": "",
+  "andar": "",
+  "muitos": "muito",
+  "pena": "",
+  "estavam": "estar",
+  "penso": "",
+  "acordo": "",
+  "presidente": "presidente",
+  "essas": "",
+  "vale": "",
+  "vivo": "",
+  "mau": "",
+  "veio": "",
+  "pais": "",
+  "chega": "",
+  "tivesse": "ter",
+  "culpa": "",
+  "chama": "",
+  "mil": "mil",
+  "paz": "",
+  "errado": "errado",
+  "esses": "",
+  "pequeno": "",
+  "força": "",
+  "sai": "",
+  "prazer": "",
+  "comida": "",
+  "cama": "",
+  "conheço": "conhecer",
+  "dê": "",
+  "muita": "",
+  "demais": "demais",
+  "longe": "longe",
+  "olhar": "",
+  "gosta": "gostar",
+  "deveria": "dever",
+  "padre": "padre",
+  "pergunta": "",
+  "disseste": "dizer",
+  "possível": "possível",
+  "armas": "",
+  "nesta": "",
+  "altura": "",
+  "pensa": "pensar",
+  "pagar": "pagar",
+  "conhecer": "conhecer",
+  "único": "único",
+  "falta": "",
+  "minuto": "",
+  "papá": "papá",
+  "seis": "",
+  "esposa": "",
+  "sente": "",
+  "rapariga": "rapariga",
+  "acabar": "acabar",
+  "estranho": "",
+  "exactamente": "exactamente",
+  "possa": "poder",
+  "irmã": "",
+  "demasiado": "demasiado",
+  "filhos": "",
+  "telefone": "",
+  "passado": "",
+  "fizeste": "fazer",
+  "matou": "matar",
+  "sala": "sala",
+  "mudar": "mudar",
+  "provavelmente": "provavelmente",
+  "seguir": "seguir",
+  "trás": "",
+  "manter": "manter",
+  "semanas": "",
+  "fique": "ficar",
+  "equipa": "",
+  "ai": "ai",
+  "diferente": "diferente",
+  "raio": "",
+  "além": "",
+  "nossas": "",
+  "boca": "boca",
+  "outras": "",
+  "ficou": "ficar",
+  "café": "",
+  "chamar": "chamar",
+  "hospital": "",
+  "médico": "",
+  "toma": "tomar",
+  "dizem": "dizer",
+  "fazem": "fazer",
+  "solo": "",
+  "plano": "",
+  "existe": "existir",
+  "resto": "",
+  "luz": "",
+  "acreditar": "acreditar",
+  "jantar": "",
+  "fazes": "fazer",
+  "licença": "licença",
+  "especial": "especial",
+  "próxima": "",
+  "bebé": "",
+  "consegue": "conseguir",
+  "puta": "",
+  "nave": "nave",
+  "esteja": "estar",
+  "sexo": "",
+  "música": "",
+  "país": "país",
+  "livro": "",
+  "oi": "oi",
+  "sentido": "",
+  "vossa": "",
+  "deixou": "deixar",
+  "sozinho": "sozinho",
+  "palavra": "",
+  "passou": "passar",
+  "queremos": "querer",
+  "depressa": "depressa",
+  "fogo": "",
+  "pare": "parar",
+  "quiser": "querer",
+  "pelos": "",
+  "ar": "ar",
+  "descobrir": "descobrir",
+  "menina": "",
+  "chegou": "chegar",
+  "falando": "falar",
+  "partir": "partir",
+  "mostrar": "mostrar",
+  "leva": "",
+  "sistema": "sistema",
+  "perguntar": "perguntar",
+  "comprar": "comprar",
+  "direito": "",
+  "ligar": "ligar",
+  "brincar": "brincar",
+  "casamento": "casamento",
+  "filme": "",
+  "lembro": "lembrar",
+  "final": "",
+  "houve": "haver",
+  "forte": "",
+  "continua": "",
+  "correr": "correr",
+  "fico": "ficar",
+  "salvar": "salvar",
+  "último": "último",
+  "mira": "",
+  "ponto": "",
+  "conhece": "conhecer",
+  "tuas": "",
+  "lembra": "lembrar",
+  "atenção": "atenção",
+  "viste": "ver",
+  "grandes": "grande",
+  "encontrei": "encontrar",
+  "pior": "pior",
+  "próprio": "próprio",
+  "quis": "querer",
+  "continuar": "continuar",
+  "local": "",
+  "esteve": "estar",
+  "linda": "",
+  "veja": "",
+  "estive": "estar",
+  "jogar": "jogar",
+  "querer": "",
+  "pequena": "",
+  "sequer": "sequer",
+  "adoro": "",
+  "irá": "",
+  "estavas": "estar",
+  "rua": "",
+  "alto": "alto",
+  "in": "in",
+  "porra": "",
+  "amiga": "",
+  "modo": "modo",
+  "devias": "dever",
+  "entendo": "entender",
+  "rei": "rei",
+  "foste": "",
+  "bonito": "",
+  "aqueles": "aquele",
+  "preocupes": "preocupar",
+  "ganhar": "ganhar",
+  "devem": "dever",
+  "pé": "pé",
+  "jovem": "",
+  "pôr": "pôr",
+  "precisas": "precisar",
+  "acontece": "acontecer",
+  "criança": "",
+  "achei": "achar",
+  "vim": "vir",
+  "campo": "",
+  "beber": "beber",
+  "haver": "",
+  "real": "",
+  "encontro": "",
+  "trouxe": "trazer",
+  "futuro": "",
+  "arranjar": "arranjar",
+  "apanhar": "apanhar",
+  "pegar": "pegar",
+  "natal": "natal",
+  "boas": "",
+  "lista": "",
+  "gostava": "gostar",
+  "precisar": "precisar",
+  "próximo": "",
+  "grupo": "grupo",
+  "certa": "",
+  "cedo": "cedo",
+  "doutor": "doutor",
+  "tratar": "tratar",
+  "novamente": "novamente",
+  "oportunidade": "",
+  "prisão": "prisão",
+  "dez": "",
+  "trazer": "trazer",
+  "droga": "",
+  "devemos": "dever",
+  "negócio": "negócio",
+  "sob": "sob",
+  "milhões": "",
+  "capaz": "capaz",
+  "completamente": "completamente",
+  "vista": "",
+  "sinal": "sinal",
+  "cala": "",
+  "finalmente": "finalmente",
+  "portanto": "portanto",
+  "lindo": "",
+  "bonita": "bonito",
+  "assassino": "",
+  "situação": "",
+  "normal": "normal",
+  "entra": "entrar",
+  "fazemos": "fazer",
+  "crime": "",
+  "vindo": "",
+  "respeito": "",
+  "mesa": "mesa",
+  "livre": "",
+  "procurar": "procurar",
+  "dessa": "",
+  "general": "",
+  "cabelo": "cabelo",
+  "disseram": "disseram",
+  "estávamos": "estar",
+  "vosso": "",
+  "faria": "fazer",
+  "hasta": "hasta",
+  "começou": "começar",
+  "estiver": "estar",
+  "ambos": "ambos",
+  "perguntas": "",
+  "questão": "questão",
+  "própria": "",
+  "viagem": "viagem",
+  "indo": "ir",
+  "consegues": "conseguir",
+  "coronel": "coronel",
+  "terá": "ter",
+  "vontade": "vontade",
+  "louco": "",
+  "mente": "",
+  "ataque": "",
+  "nessa": "",
+  "trata": "tratar",
+  "casar": "casar",
+  "desse": "",
+  "fizeram": "fizeram",
+  "estúpido": "estúpido",
+  "peço": "pedir",
+  "hotel": "",
+  "mortos": "",
+  "acabei": "acabar",
+  "raios": "",
+  "perfeito": "",
+  "iria": "ir",
+  "linha": "linha",
+  "tipos": "",
+  "consegui": "conseguir",
+  "jeito": "jeito",
+  "cão": "",
+  "palavras": "",
+  "mensagem": "mensagem",
+  "programa": "",
+  "chão": "",
+  "barco": "",
+  "simples": "simples",
+  "ordem": "ordem",
+  "cerca": "",
+  "acredita": "acreditar",
+  "escritório": "escritório",
+  "estará": "estar",
+  "proteger": "proteger",
+  "uno": "",
+  "saia": "",
+  "sol": "",
+  "notícias": "",
+  "abrir": "abrir",
+  "banco": "",
+  "tocar": "tocar",
+  "tio": "tio",
+  "connosco": "connosco",
+  "nisto": "",
+  "avião": "",
+  "maldito": "maldito",
+  "doente": "",
+  "nesse": "",
+  "viva": "",
+  "estivesse": "estar",
+  "vês": "",
+  "acidente": "acidente",
+  "banho": "",
+  "emprego": "",
+  "prometo": "prometer",
+  "pelas": "",
+  "saiu": "sair",
+  "chamada": "",
+  "conversa": "",
+  "senhores": "",
+  "simplesmente": "simplesmente",
+  "tinham": "ter",
+  "conseguiu": "conseguir",
+  "juro": "",
+  "sítio": "sítio",
+  "carta": "",
+  "cena": "cena",
+  "melhores": "melhor",
+  "deves": "dever",
+  "tradução": "tradução",
+  "tá": "",
+  "pensando": "pensar",
+  "relação": "relação",
+  "ouça": "",
+  "creio": "crer",
+  "dor": "",
+  "assunto": "assunto",
+  "aonde": "",
+  "dei": "dar",
+  "sozinha": "sozinho",
+  "fundo": "",
+  "nele": "",
+  "legal": "legal",
+  "energia": "energia",
+  "presente": "",
+  "bocado": "bocado",
+  "levou": "levar",
+  "resposta": "",
+  "miúdo": "",
+  "dito": "",
+  "missão": "missão",
+  "tenente": "",
+  "preso": "",
+  "governo": "",
+  "tiro": "",
+  "interessa": "interessar",
+  "vemos": "ver",
+  "idade": "",
+  "professor": "professor",
+  "preocupe": "preocupar",
+  "fiquei": "ficar",
+  "serviço": "serviço",
+  "centro": "",
+  "segundos": "",
+  "voz": "voz",
+  "tira": "",
+  "planeta": "",
+  "graças": "",
+  "segunda": "",
+  "povo": "povo",
+  "morta": "morto",
+  "dou": "dar",
+  "ler": "ler",
+  "basta": "",
+  "falou": "falar",
+  "colocar": "colocar",
+  "eh": "",
+  "pensava": "pensar",
+  "diabos": "",
+  "divertido": "",
+  "come": "comer",
+  "lembras": "lembrar",
+  "explicar": "explicar",
+  "digas": "",
+  "tinhas": "ter",
+  "papel": "",
+  "informação": "",
+  "escuta": "",
+  "bons": "bom",
+  "fugir": "fugir",
+  "funciona": "funcionar",
+  "verdadeiro": "verdadeiro",
+  "tentando": "tentar",
+  "chamado": "",
+  "bar": "bar",
+  "garota": "",
+  "sendo": "ser",
+  "engraçado": "engraçado",
+  "espaço": "",
+  "sonho": "",
+  "mandar": "mandar",
+  "escolha": "",
+  "dizendo": "dizer",
+  "justo": "justo",
+  "comandante": "comandante",
+  "após": "após",
+  "lutar": "lutar",
+  "facto": "",
+  "leve": "",
+  "fantástico": "fantástico",
+  "caixa": "caixa",
+  "segura": "",
+  "fazia": "fazer",
+  "conversar": "conversar",
+  "excelente": "excelente",
+  "companhia": "companhia",
+  "através": "através",
+  "roupa": "",
+  "erro": "",
+  "daí": "",
+  "fomos": "",
+  "madre": "madre",
+  "vítima": "",
+  "pensas": "pensar",
+  "guarda": "",
+  "base": "base",
+  "alma": "",
+  "gostas": "gostar",
+  "acaba": "acabar",
+  "quantos": "quantos",
+  "breve": "",
+  "ama": "",
+  "advogado": "",
+  "fome": "fome",
+  "par": "",
+  "olho": "",
+  "encontrou": "encontrar",
+  "quiseres": "querer",
+  "sete": "",
+  "prova": "",
+  "miúda": "",
+  "provas": "",
+  "abre": "abrir",
+  "loja": "loja",
+  "igual": "",
+  "soube": "saber",
+  "apartamento": "",
+  "dizes": "dizer",
+  "entender": "entender",
+  "mês": "",
+  "exército": "",
+  "tempos": "",
+  "carne": "carne",
+  "vidas": "",
+  "deixem": "deixar",
+  "falei": "falar",
+  "donde": "",
+  "aposto": "",
+  "esperando": "esperar",
+  "gostar": "gostar",
+  "lembrar": "lembrar",
+  "pediu": "pedir",
+  "diabo": "",
+  "bebida": "",
+  "ouviu": "ouvir",
+  "posição": "posição",
+  "vender": "vender",
+  "vive": "viver",
+  "má": "mau",
+  "tornar": "tornar",
+  "quente": "quente",
+  "imediatamente": "imediatamente",
+  "eras": "",
+  "inferno": "",
+  "olhem": "olhar",
+  "encontramos": "encontrar",
+  "perdi": "perder",
+  "tivemos": "ter",
+  "aprender": "aprender",
+  "incrível": "incrível",
+  "totalmente": "totalmente",
+  "conseguimos": "conseguir",
+  "escrever": "escrever",
+  "lei": "",
+  "chave": "",
+  "fizemos": "fazer",
+  "duro": "duro",
+  "interessante": "",
+  "céu": "céu",
+  "vestido": "",
+  "precisam": "precisar",
+  "entendido": "entender",
+  "metade": "metade",
+  "devíamos": "dever",
+  "voltou": "voltar",
+  "destino": "",
+  "cair": "cair",
+  "receber": "receber",
+  "cabo": "cabo",
+  "volto": "voltar",
+  "humano": "",
+  "área": "área",
+  "surpresa": "",
+  "esquerda": "",
+  "oficial": "",
+  "luta": "",
+  "norte": ""
+ },
+ "noun_verdicts": {
+  "a": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "não": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "não",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "é": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "e": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "um": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "um",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "eu": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "eu",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "ele": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "ele",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "bem": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "bem",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "mas": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "mas",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "as": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "sim": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "sim",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "mais": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "aqui": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "aqui",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "meu": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "meu",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "ela": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "ser": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "ser",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "nos": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "minha": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "tudo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "tudo",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "agora": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "agora",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "quando": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "quando",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "nada": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "era": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "seu": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "seu",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "lá": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "lá",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "sua": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "ou": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "ou",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "coisa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "nós": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "quero": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "eles": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "são": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "este": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "este",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "mesmo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "mesmo",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "casa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "nunca": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "nunca",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "vez": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "vez",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "favor": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "favor",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "tempo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "tempo",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "falar": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "falar",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "vida": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "quê": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "quê",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "obrigado": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "pai": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "pai",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "si": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "deus": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "deus",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "noite": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "noite",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:3e6d038999e239a9f57fdd8cac1f959478d6c84f99cb1c775c73058ebdcebee1"
+  },
+  "tua": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "teu": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "teu",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "dia": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "dia",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "todo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "todo",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "alguém": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "alguém",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "mãe": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "mãe",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:248f5d87ab539de1a1436d5af742290162bc9e3d9e00fead7e2291908875f299"
+  },
+  "anos": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "ano",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "tinha": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "antes": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "antes",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "senhor": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "senhor",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "homem": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "homem",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "claro": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "claro",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "és": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "coisas": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "pelo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "pessoas": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "pessoa",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "boa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "verdade": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "verdade",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "tipo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "dois": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "dois",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "esse": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "esse",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "essa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "mi": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "grande": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "grande",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "saber": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "saber",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "aí": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "aí",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "trabalho": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "espera": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "ninguém": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "ninguém",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "dinheiro": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "dinheiro",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:d6f915d40c805ea9821b6de01c5a3da6444ac38fbc7d382ebb69115f8a4855c5"
+  },
+  "fora": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "toda": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "vão": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "mundo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "mundo",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:542f6c09fcfdf473f3fdf98ee80cf5c91469d245554c63cae2a31c5ae88b500c"
+  },
+  "ok": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "ok",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "seus": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "lugar": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "lugar",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "amigo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "mulher": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "mulher",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "meus": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "menos": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "menos",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "olha": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "nosso": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "nosso",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "nossa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "filho": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "filho",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "nome": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "nome",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:59a518fc275bda3dfc15bb0371102869c6ac665adb9e2c81d855165542ee38ad"
+  },
+  "problema": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "problema",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:f550c564dca1c6758e2b4a5b84dd3c871e910f17e8ba72d6323d272ca1edce38"
+  },
+  "mal": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "certeza": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "certeza",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "fez": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "parte": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "todas": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "cara": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "volta": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "novo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "novo",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "desculpa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "carro": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "carro",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:0d76ad354f1477c6a08205835da9877d621209f7cc818bef26551128c6fd813c"
+  },
+  "hora": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "hora",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:f77fbc91a0f49ebd54feb118fe9af22481af8aaf05761737c654ff8a7fb270bb"
+  },
+  "merda": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "merda",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "sério": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "sério",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "lado": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "lado",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "gente": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "gente",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "cá": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "cá",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "três": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "três",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "vezes": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "passa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "primeiro": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "primeiro",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "deixa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "amor": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "amor",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:e9c11274616e14ce8658a3448a1acc840452f75d5477c766c3603768877c1017"
+  },
+  "tarde": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "momento": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "momento",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:2f6ae7842835c753208b532d01175dcaff5192ca0c4e69c5b224ad28d1ecabd4"
+  },
+  "tal": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "tal",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "querida": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "suas": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "dias": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "obrigada": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "amigos": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "amigo",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "vê": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "horas": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "hora",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:f77fbc91a0f49ebd54feb118fe9af22481af8aaf05761737c654ff8a7fb270bb"
+  },
+  "caso": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "porquê": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "porquê",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "tanto": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "tanto",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "acha": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "razão": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "razão",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:12321e3f706c9c462a0ece547cf62abedf6677282cbb4c7f6ec45d3a7ac402ac"
+  },
+  "forma": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "homens": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "homem",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "gosto": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "anda": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "frente": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "frente",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:dac0bb63888c2eb4222984908056c9e59dd5c45d005ce1ea4094f1e849070dd0"
+  },
+  "uns": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "família": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "família",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:635571f4ffceaaac3857deae3af930204b83ed2a7432fdf9f99e68850a368688"
+  },
+  "cabeça": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "cabeça",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:b90d896c8da3786d197ab3ef712275c1ad1838a42ff87d3209dc58b9686901f2"
+  },
+  "pronto": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "pronto",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "ajuda": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "sé": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "sé",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "minutos": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "minuto",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "pessoa": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "pessoa",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "cidade": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "cidade",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:edb942cb7c62a393e74d8992f179375f5e420fb042a9e353cd570577d98c6fbf"
+  },
+  "polícia": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "polícia",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:ba01b36016b579ad986e27757aab61d520d9b50c1ffff75479365bde8deff6a4"
+  },
+  "cima": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "cima",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "for": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "quase": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "quase",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "durante": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "durante",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "ia": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "amanhã": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "amanhã",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "nova": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "ideia": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "morto": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "maneira": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "arma": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "cuidado": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "conta": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "porta": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "minhas": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "meu",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "semana": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "semana",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "história": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "história",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:ff49f8a07d2560d5540174ba40a27295fb1e94b207e062dea34804d069cf84a0"
+  },
+  "medo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "medo",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "morte": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "morte",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "caminho": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "estado": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "ano": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "ano",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "irmão": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "irmão",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "sorte": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "sorte",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:f0dd3ca02f431b4df5fc6760f04e58b1044ecce91108f362cfa1e4d29b18b541"
+  },
+  "feito": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "problemas": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "problema",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:f550c564dca1c6758e2b4a5b84dd3c871e910f17e8ba72d6323d272ca1edce38"
+  },
+  "quarto": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "poder": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "poder",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "causa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "amo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "pessoal": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "pessoal",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "olhos": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "olho",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "sangue": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "sangue",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:01d79b0a3b328c5237f4470d74e0fd6dcadf3417872e671e97917929e3dcaa4d"
+  },
+  "última": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "comer": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "comer",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "cinco": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "cinco",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "senhora": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "logo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "rapaz": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "rapaz",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "mãos": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "mão",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:545cc3cab43af98da74e727443ea570ed2320affd206cd0ce4567b3b291aab65"
+  },
+  "manhã": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "manhã",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "nossos": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "terra": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "guerra": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "guerra",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:461b05b82d4d822f4beafc797e3129fa0fbdf312fb7422cb392ad7fde6ce4981"
+  },
+  "água": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "filha": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "filha",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "jogo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "segundo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "óptimo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "óptimo",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "querido": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "fala": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "capitão": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "capitão",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "lamento": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "corpo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "corpo",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:145678dd322e9b30745890301382caa97339ec77ebba34c7a0d9164ae95a65c6"
+  },
+  "meio": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "número": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "número",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:ad9ae77e40140a61f1d5b5fae5c904f88e257f9a6ee8ee493a6b29be735a5ee1"
+  },
+  "idiota": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "idiota",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "meses": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "chefe": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "chefe",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:f480f48f11750c644b822d9aa67c7a6c42c5b051451e542f6f5fda24219c5e1c"
+  },
+  "suficiente": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "suficiente",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "seguro": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "escola": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "escola",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:afe888d2fbe741bc564010b240e6c5cffdc27ee87daa8716b43518096cc03d31"
+  },
+  "dólares": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "dólar",
+   "allowed": false,
+   "reason": "missing_singular_menu"
+  },
+  "calma": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "marido": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "marido",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "teus": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "fim": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "fim",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "mão": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "mão",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:545cc3cab43af98da74e727443ea570ed2320affd206cd0ce4567b3b291aab65"
+  },
+  "ontem": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "ontem",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "baixo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "coração": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "coração",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:5755b93b1f583c2c5dd971c862ed957545f7e5ef1cb68c7098cd8c27cd897c30"
+  },
+  "mulheres": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "mulher",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "bastante": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "bastante",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "quatro": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "quatro",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "agente": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "crianças": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "criança",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "segurança": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "segurança",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:5a39e541c8d78f0a966c74b8765020717e4f1eb907e5fee032d0e896e628b46c"
+  },
+  "rapazes": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "rapaz",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "visto": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "viver": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "viver",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "festa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "velho": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "velho",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "procura": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "andar": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "andar",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "pena": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "penso": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "acordo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "presidente": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "presidente",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:c9d96fe99b4c3c4891d157704b8260dee263b3e6c8968a9371b17b74df20a31a"
+  },
+  "essas": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "vale": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "mau": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "mau",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "veio": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "pais": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "chega": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "culpa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "chama": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "paz": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "paz",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "esses": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "esse",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "pequeno": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "pequeno",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "força": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "prazer": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "prazer",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "comida": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "cama": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "cama",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "dê": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "olhar": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "olhar",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "padre": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "padre",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:76fa2b663977511cee46b3e2fd8e9e3f56a8fccdd89c0281820468c40d6e864e"
+  },
+  "pergunta": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "armas": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "altura": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "altura",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "falta": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "minuto": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "papá": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "papá",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:9441b3089b7372a1822d8b58522d6b2ffd9f1d1246f32fbce122c0627c149074"
+  },
+  "seis": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "seis",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "esposa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "rapariga": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "rapariga",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:cd0a53e67231ebf7f730a26493df1314cdf40c99265744a2ede15b0f4d64bbe7"
+  },
+  "estranho": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "irmã": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "filhos": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "telefone": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "passado": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "sala": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "sala",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:4c0762c5db55dba46965ea00b733d57726303216bb07d5abb7539389d57f4144"
+  },
+  "trás": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "semanas": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "semana",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "equipa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "raio": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "além": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "além",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "nossas": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "nosso",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "boca": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "boca",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:ec9689facef14c6429c31cfbd2b552c228dd2085cb251ff98d1226264b5e2640"
+  },
+  "café": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "café",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "hospital": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "hospital",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "médico": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "médico",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "solo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "plano": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "resto": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "luz": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "jantar": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "jantar",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "licença": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "licença",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:647d013f1c3e72e910c0a2818256b15445e6695f5569ed7f211f049821c31bbf"
+  },
+  "próxima": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "bebé": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "bebé",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "puta": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "nave": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "nave",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:cfd20b964bad22a4b373f4fe99756f3e8bf4c96fbd47b0d0f13b50052b189321"
+  },
+  "sexo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "música": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "país": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "país",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:6bf49407df5cd240ef75dfce1867b4eaef0d13db0c5c9684aa34ff1dc39b6575"
+  },
+  "livro": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "sentido": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "vossa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "palavra": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "palavra",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "fogo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "pelos": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "ar": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "ar",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:8d585e538870f096ad1a0b807a5e5b9cac961dd1ffec8dfae212d5359e5dd109"
+  },
+  "menina": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "menina",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "leva": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "sistema": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "sistema",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:c9169cdd71f4b5239d6080131ebd20fdb14d19e23d66921f3473fb9eb5d5d7e7"
+  },
+  "direito": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "direito",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "casamento": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "casamento",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:7c9c977b95a4b1afdf95949e0422c02f106a7f934aa961d2bfe0d8069ebd51b7"
+  },
+  "filme": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "final": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "final",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "forte": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "forte",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "continua": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "mira": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "ponto": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "ponto",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "tuas": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "teu",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "atenção": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "atenção",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:cd2fb109e681fdd2672f6dd74f6bbf9f0818f9fcf121f05c8c6ac4a1e7dbff1a"
+  },
+  "local": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "local",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "linda": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "veja": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "querer": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "querer",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "pequena": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "adoro": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "irá": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "rua": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "porra": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "amiga": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "modo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "modo",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:12492811807674cf7b9443c8246c4ac00fa655c8ce290a595ee2a41caf8f4d6e"
+  },
+  "rei": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "rei",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:29173cf236b0181306167a1081dc49c7065548eba4304b7b2e15baf98afb0ea0"
+  },
+  "bonito": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "bonito",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "pé": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "pé",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:06528a04391402d06ba84a5a8f349e55b3728eeda3193b79c998ef32682ce07c"
+  },
+  "jovem": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "jovem",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "criança": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "criança",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "campo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "haver": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "haver",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "real": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "real",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "encontro": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "futuro": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "lista": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "próximo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "próximo",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "grupo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "grupo",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:2f4d6ba291837698ea3872ccf8bc81c9bda9b0d57b9b0ca7cbc12438e1b19f83"
+  },
+  "doutor": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "doutor",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:50ebb3ba684af02227c8b0ecb84b63024d4a2d5a8b0f83becec6642aac0a177e"
+  },
+  "oportunidade": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "oportunidade",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "prisão": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "prisão",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:1f27d019aa44b7f3070ef1c1336e2b00c575c7f8141437d537bfcd7b2d9ae650"
+  },
+  "dez": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "dez",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "droga": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "negócio": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "negócio",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:16e972068a81d4f55e3b93e5ebe96fca28b0965b2319e111eebae04e00311847"
+  },
+  "milhões": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "vista": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "sinal": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "sinal",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:0ab782fbc24d33a7eafbcae74ac78ea63049885789287ad3a59b93d20adce944"
+  },
+  "lindo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "assassino": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "situação": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "situação",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "crime": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "crime",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "respeito": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "mesa": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "mesa",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:96a44dbaeefe53ef0e51cf6ed630c5bae44bc5fc4955425b7f5c5b1e145b734d"
+  },
+  "livre": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "general": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "general",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "cabelo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "cabelo",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:5a9f1cdce56331c71ec0a24a47acd86eb4a0ce326443585e5bfe84df11b352d5"
+  },
+  "vosso": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "vosso",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "hasta": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "hasta",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:4a4f524a31bbf6b3dc0ae460e47fe5f7b7ed1ec0a93f149643f2baa7a58e35a5"
+  },
+  "perguntas": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "questão": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "questão",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:dcab92bc6482fd4b67dcde20428d4ba6a015c48c8d9f0b926961dbb0139faa3f"
+  },
+  "viagem": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "viagem",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:7795c4fc82bb0d259f9665c74b5d42668221682bdf2e063408f996b506617f86"
+  },
+  "coronel": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "coronel",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:402c855254c4ac693c569b885e01ec13c27b091aac891f9a5541084d9e4dacdc"
+  },
+  "vontade": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "vontade",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:01f8b6020614ab0f37b8cebdc5bda2404e2a165a0c556aaa7f8b5bd3ae99f4ec"
+  },
+  "louco": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "louco",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "mente": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "ataque": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "hotel": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "hotel",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "mortos": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "raios": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "raio",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "perfeito": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "linha": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "linha",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:3dc3b013573aed269942a7ed68c13d32ad184c45127930d5a175e7e598d2bb20"
+  },
+  "tipos": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "tipo",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "jeito": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "jeito",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:e207ddb1ffb85eb1eb13de079e8ac5311437c8bb5e95eb17002de0b2929a538e"
+  },
+  "cão": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "cão",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "palavras": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "palavra",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "mensagem": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "mensagem",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:2c63d0d0ab102e2772a5eca8737b1cb65a0f87493b2530d7e0f2765975282123"
+  },
+  "programa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "chão": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "chão",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "barco": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "barco",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "ordem": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "ordem",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:c93fb68b5489b8d26985de87ec429a6c446f76c872edc43d6f80f3d919c4d9a9"
+  },
+  "cerca": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "escritório": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "escritório",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:9aa380ae0b0817551bd8f7faaa179123816a10850df8a9df622ee7ad47a62644"
+  },
+  "uno": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "saia": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "sol": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "sol",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "notícias": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "banco": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "tio": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "tio",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:228c15ee497f7f721f38d6a27c2bc39e3b8667400df93814a7c01dd5abc9d980"
+  },
+  "avião": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "doente": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "doente",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "viva": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "vês": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "acidente": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "acidente",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:e1d9dcb177f71b1142a36f3361b4beac3c7f9a370c5acd757a4e7579833bb673"
+  },
+  "banho": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "emprego": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "chamada": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "conversa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "senhores": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "senhor",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "juro": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "sítio": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "sítio",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:da14a91ba8e58d6655c57723a9aacd2b67bf50805b872fdab776d0051b9c73a2"
+  },
+  "carta": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "cena": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "cena",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:ff57dee50a34a189a848b40d82fd1a0bbfc49fb3efe76131f5776da10881910e"
+  },
+  "tradução": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "tradução",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:f74db21e0d6f46515fcf15247c5b7ed386d26d1291060e53b9fbf35757769eac"
+  },
+  "relação": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "relação",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:b681c8663ed88ce4cb79fa16c8d976213b6ae63f4c2aa36ab796143a76e1fdc1"
+  },
+  "dor": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "dor",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "assunto": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "assunto",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:5c3df81565171b81b7fd8e2d7bbeee941c39a834a5cc8e93d4c0aaa5d12d377e"
+  },
+  "fundo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "nele": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "energia": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "energia",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:6f9c445383bb60b0d84a89b98788a2845d259315a8c2e2c7c8b7ded7677db831"
+  },
+  "presente": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "presente",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "bocado": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "bocado",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:67a435a14838231886d925110f751af7baec075e52fed77254febe35ebb25570"
+  },
+  "resposta": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "resposta",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "miúdo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "dito": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "missão": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "missão",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:6315c1985a1dd12b858c6711b8c0d3153cfc47adddce1b40f75becdf0509ef7b"
+  },
+  "tenente": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "tenente",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "preso": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "governo": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "tiro": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "idade": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "idade",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "professor": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "professor",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:06a6addcbdb242e5407d1d0f3672c35866099d197821f41e31202f5916a84874"
+  },
+  "serviço": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "serviço",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:662a04918f69dbd1996c832124dc13019862dcb26672d992d35c73c199f6d42c"
+  },
+  "centro": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "segundos": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "segundo",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "voz": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "voz",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:7ea75b94770f8e14834ab653ee944b3fff81a9afb9bf5a7c3c47d06b45179278"
+  },
+  "tira": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "planeta": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "planeta",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "graças": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "povo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "povo",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:dca6dd648beba99717c822d3e7473205cf669bf749fee19cd004056348f47186"
+  },
+  "diabos": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "papel": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "papel",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "informação": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "informação",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "escuta": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "chamado": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "bar": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "bar",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:e81c60c0631dbd0e3fdb1a523abd26d67dc4fa49d3c976a3f8fbf34b4b74d63d"
+  },
+  "garota": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "espaço": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "sonho": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "escolha": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "comandante": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "comandante",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:3e54c266e5b7af917d62129210d8fdfcdd14bdad6b5dba916f6129ee4951872e"
+  },
+  "facto": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "facto",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "caixa": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "caixa",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:751e94414e7322b28ff23647781cc0e352d3456da1cd761503301ed0a579f701"
+  },
+  "companhia": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "companhia",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:9e58b425101c0d3c17be47ef1051e4b2c252cb4c447350b5afb2cabdca7fdf12"
+  },
+  "roupa": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "roupa",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "erro": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "madre": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "madre",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:7fffcedbb83fa99e2a1a2cdddfb3d0baf877eeb5a63e2c7d8b5bd532681c45b5"
+  },
+  "vítima": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "vítima",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "guarda": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "base": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "base",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:74cf0ad547e548c0f6bd6bacd71f039fd416efc5293ee93d4693bcd640b39483"
+  },
+  "alma": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "alma",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "breve": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "breve",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "ama": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "advogado": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "fome": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "fome",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:af10e91693833ec65d31cd92e3cc470044e3cc1211079f9386c3185c0416a397"
+  },
+  "par": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "par",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "olho": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "sete": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "sete",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "prova": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "miúda": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "not_a_plural_relationship",
+   "lemma": ""
+  },
+  "provas": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "loja": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "loja",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:93744a7e29097b7b2fe1b00ba16d21eb44f16ad990715e474a7b05ffdd63f790"
+  },
+  "igual": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "igual",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "apartamento": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "apartamento",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "mês": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "exército": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "exército",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "tempos": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "tempo",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "carne": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "carne",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:f6171cea1a7bc14c562206b56fd48420516a2e68222481cd876994ac81a0f865"
+  },
+  "vidas": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "aposto": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "diabo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "diabo",
+   "allowed": false,
+   "reason": "ambiguous_headwords"
+  },
+  "bebida": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "posição": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "posição",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:a559424532225630b119f5ae4d87e94bd8c034c512a8221431018b4092747330"
+  },
+  "eras": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "inferno": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "inferno",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "lei": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "lei",
+   "allowed": false,
+   "reason": "number_specific_or_incomplete_sense"
+  },
+  "chave": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "chave",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "interessante": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "interessante",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "céu": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "céu",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:9ec93b263740ea11f1b21e7b62f56fd30476a36e26a0fc4d05141634180d7eeb"
+  },
+  "vestido": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "metade": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "metade",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:ad35ce65f438489f1ba0b156ce9d3d1453fdd7824c78ee1974294b831c1685af"
+  },
+  "destino": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "cabo": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "cabo",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:8ac0ab2b6e0e1af5fb0a7f6e78f7861be903510a97cc9c0b44f3f60eb297dc44"
+  },
+  "humano": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "área": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "área",
+   "allowed": true,
+   "reason": "same_complete_menu",
+   "sense_set": "sha256:8ca14d461e539baba5e4e016026932ab54cdad13f15d3a33c555fbf79961094f"
+  },
+  "surpresa": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "esquerda": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "oficial": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "oficial",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  },
+  "luta": {
+   "rule_version": "noun-merge/v2",
+   "allowed": false,
+   "reason": "ambiguous_headwords",
+   "lemma": ""
+  },
+  "norte": {
+   "rule_version": "noun-merge/v2",
+   "lemma": "norte",
+   "allowed": false,
+   "reason": "multiple_dictionary_entries"
+  }
+ },
+ "release_index_content_id": "sha256:d702c6baaaf4b7d98b255063c37903b761af2952eb2516051a8d420ef8cefec3",
+ "visible_sense_rule": "visible-senses/v1",
+ "visible_sense_keys": {
+  "que": "[\"ref:kaikki:en-que-pt-conj-pt:noun_clause_connector\",\"ref:kaikki:en-que-pt-det-pt:what\"]",
+  "o": "[\"ref:kaikki-content:sense_3ed46bb5071474490c10fe8251f48f69\",\"ref:kaikki-content:sense_4104bff33fc28b42f23b9bf321f525cb\",\"ref:kaikki-content:sense_9f2a30c595871139a125f5b69b1ba4c4\",\"ref:kaikki:en-o-pt-article-pt:article\",\"ref:kaikki:en-o-pt-pron-pt:pronoun\"]",
+  "de": "[\"ref:kaikki:en-de-pt-prep-14BZEtt0\",\"ref:kaikki:en-de-pt-prep-7uPtEUdv\",\"ref:kaikki:en-de-pt-prep-FPYEuswM\",\"ref:kaikki:en-de-pt-prep-g7Q~dFUn\"]",
+  "para": "[\"ref:kaikki:en-para-pt-prep-pt:appropriate_or_directed_to\",\"ref:kaikki:en-para-pt-prep-pt:in_order_to\",\"ref:kaikki:en-para-pt-prep-pt:in_the_opinion_of\",\"ref:kaikki:en-para-pt-prep-pt:towards\"]",
+  "me": "[\"ref:kaikki:en-me-pt-pron-pt:1sg_objective_direct_pronoun\",\"ref:kaikki:en-me-pt-pron-pt:1sg_objective_indirect_pronoun\"]",
+  "por": "[\"ref:kaikki:en-por-pt-prep-pt:each\",\"ref:kaikki:en-por-pt-prep-pt:given_in_an_exchange\"]",
+  "com": "[\"ref:kaikki:en-com-pt-prep-pt:against\",\"ref:kaikki:en-com-pt-prep-pt:having\",\"ref:kaikki:en-com-pt-prep-pt:together_with\"]",
+  "te": "[\"ref:kaikki:en-te-pt-pron-MeCHsmMq\"]",
+  "em": "[\"ref:kaikki:en-em-pt-prep-pt:immediately_after_a_period\",\"ref:kaikki:en-em-pt-prep-pt:in_a_location\",\"ref:kaikki:en-em-pt-prep-pt:language__script_or_tone\"]",
+  "como": "[\"ref:kaikki:en-como-pt-adv-pt:in_what_way\",\"ref:kaikki:en-como-pt-adv-pt:similarly_to\",\"ref:kaikki:en-como-pt-conj-pt:how_to\"]",
+  "isso": "[\"ref:kaikki:en-isso-pt-pron-pt:that\"]",
+  "você": "[\"ref:kaikki:en-você-pt-pron-C97tDMNr\"]",
+  "muito": "[\"ref:kaikki:en-muito-pt-adv-pt:very\",\"ref:kaikki:en-muito-pt-det-pt:a_lot_of\",\"ref:kaikki:en-muito-pt-pron-iss~qXT3\"]",
+  "fazer": "[\"ref:kaikki:en-fazer-pt-verb--I8By790\",\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\"]",
+  "estou": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "vai": "[\"ref:kaikki:en-ir-pt-verb-pt:forms_the_future_tense\"]",
+  "tem": "[\"ref:kaikki:en-ter-pt-verb-1K4h1hf8\",\"ref:kaikki:en-ter-pt-verb-LxxPmi7t\",\"ref:kaikki:en-ter-pt-verb-fxP4UsPJ\",\"ref:kaikki:en-ter-pt-verb-pt:forms_the_perfect\"]",
+  "isto": "[\"ref:kaikki:en-isto-pt-pron-4w0vzOW8\"]",
+  "tu": "[\"ref:kaikki:en-tu-pt-pron-Figllm6u\"]",
+  "já": "[\"ref:kaikki:en-já-pt-adv-pt:already\",\"ref:kaikki:en-já-pt-adv-pt:any_more\"]",
+  "só": "[\"ref:kaikki:en-só-pt-adj-pt:alone_in_a_category\",\"ref:kaikki:en-só-pt-adv-pt:insignificant_action\"]",
+  "tenho": "[\"ref:kaikki:en-ter-pt-verb-F0SM4H13\",\"ref:kaikki:en-ter-pt-verb-LxxPmi7t\"]",
+  "vou": "[\"ref:kaikki:en-ir-pt-verb-pt:forms_the_future_tense\",\"ref:kaikki:en-ir-pt-verb-pt:to_move_to_a_destination\"]",
+  "porque": "[\"ref:kaikki:en-porque-pt-conj-TdsH5jgR\",\"ref:kaikki:en-porque-pt-conj-gZXF1tHV\"]",
+  "há": "[\"ref:kaikki:en-haver-pt-verb-pt:exist\",\"ref:kaikki:en-haver-pt-verb-pt:it_has_been_since\"]",
+  "estás": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "então": "[\"ref:kaikki:en-então-pt-adv-WxZPpoRq\",\"ref:kaikki:en-então-pt-intj--e3~PHKX\"]",
+  "dizer": "[\"ref:kaikki:en-dizer-pt-verb-pt:to_say_that\",\"ref:kaikki:en-dizer-pt-verb-pt:to_speak\",\"ref:kaikki:en-dizer-pt-verb-pt:to_tell_something\"]",
+  "ter": "[\"ref:kaikki:en-ter-pt-verb-LxxPmi7t\",\"ref:kaikki:en-ter-pt-verb-pt:forms_the_perfect\"]",
+  "onde": "[\"ref:kaikki:en-onde-pt-adv-pt:in_what_place\"]",
+  "quem": "[\"ref:kaikki:en-quem-pt-pron-Xfacc~j2\",\"ref:kaikki:en-quem-pt-pron-ilVbswNv\"]",
+  "esta": "[\"ref:kaikki:en-este-pt-det-fSA1wSgL\"]",
+  "pode": "[\"ref:kaikki:en-poder-pt-verb-exbQdxYL\",\"ref:kaikki:en-poder-pt-verb-pt:it_is_possible_that\",\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_ability_to\",\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_permission_to\"]",
+  "lhe": "[\"ref:kaikki:en-você-pt-pron-C97tDMNr\"]",
+  "sou": "[\"ref:kaikki:en-ser-pt-verb-pt:to_be_an_example_of\",\"ref:kaikki:en-ser-pt-verb-pt:to_have_the_given_quality\"]",
+  "estava": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "ver": "[\"ref:kaikki:en-ver-pt-verb-E7ufxT7k\",\"ref:kaikki:en-ver-pt-verb-vJ-lbQxr\"]",
+  "disse": "[\"ref:kaikki:en-dizer-pt-verb-pt:to_say_that\",\"ref:kaikki:en-dizer-pt-verb-pt:to_speak\"]",
+  "bom": "[\"ref:kaikki:en-bom-pt-adj-RVBfZ8pJ\",\"ref:kaikki:en-bom-pt-adj-aTCJ3w4Q\"]",
+  "posso": "[\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_ability_to\",\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_permission_to\"]",
+  "mim": "[\"ref:kaikki:en-mim-pt-pron-TmtrAl~f\"]",
+  "estão": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "ir": "[\"ref:kaikki:en-ir-pt-verb-pt:to_begin_an_action\",\"ref:kaikki:en-ir-pt-verb-pt:to_move_to_a_destination\"]",
+  "temos": "[\"ref:kaikki:en-ter-pt-verb-F0SM4H13\",\"ref:kaikki:en-ter-pt-verb-LxxPmi7t\"]",
+  "sobre": "[\"ref:kaikki:en-sobre-pt-prep-pt:about\"]",
+  "assim": "[\"ref:kaikki:en-assim-pt-adv-RnhRLaAE\"]",
+  "até": "[\"ref:kaikki:en-até-pt-prep-pt:to_a_place\",\"ref:kaikki:en-até-pt-prep-pt:until_a_time\"]",
+  "acho": "[\"ref:kaikki:en-achar-pt-verb-YoETKySV\"]",
+  "algo": "[\"ref:kaikki:en-algo-pt-pron-n5JSKolP\"]",
+  "ainda": "[\"ref:kaikki:en-ainda-pt-adv-L1lnNhW3\",\"ref:kaikki:en-ainda-pt-adv-X2pnTbDu\"]",
+  "sabe": "[\"ref:kaikki:en-saber-pt-verb-G7UJN~jl\",\"ref:kaikki:en-saber-pt-verb-pt:to_have_heard_of\",\"ref:kaikki:en-saber-pt-verb-pt:to_know_a_fact\"]",
+  "certo": "[\"ref:kaikki:en-certo-pt-adj-XROYQ~N3\"]",
+  "também": "[\"ref:kaikki:en-também-pt-adv-pt:too\"]",
+  "estamos": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "sabes": "[\"ref:kaikki:en-saber-pt-verb-pt:to_know_a_fact\"]",
+  "tão": "[\"ref:kaikki:en-tão-pt-adv-pt:as_as\",\"ref:kaikki:en-tão-pt-adv-pt:to_a_great_extent\"]",
+  "melhor": "[\"ref:kaikki:en-melhor-pt-adj-gq02ARQU\",\"ref:kaikki:en-melhor-pt-adj-kN-OPUSS\",\"ref:kaikki:en-melhor-pt-adv-rAlqo2Qr\"]",
+  "tens": "[\"ref:kaikki:en-ter-pt-verb-F0SM4H13\",\"ref:kaikki:en-ter-pt-verb-LxxPmi7t\"]",
+  "noite": "[\"ref:kaikki:en-noite-pt-noun-pt:night\"]",
+  "talvez": "[\"ref:kaikki:en-talvez-pt-adv-Z5rHYXVo\"]",
+  "parece": "[\"ref:kaikki:en-parecer-pt-verb-4rGVJ1Yi\",\"ref:kaikki:en-parecer-pt-verb-dvyQu-As\"]",
+  "depois": "[\"ref:kaikki:en-depois-pt-adv-T5upbnql\"]",
+  "sempre": "[\"ref:kaikki:en-sempre-pt-adv-pt:at_all_times\",\"ref:kaikki:en-sempre-pt-adv-pt:regularly\"]",
+  "estar": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "sem": "[\"ref:kaikki:en-sem-pt-prep-YkwaRWei\",\"ref:kaikki:en-sem-pt-prep-pt:not_doing\",\"ref:kaikki:en-sem-pt-prep-pt:not_having\"]",
+  "ti": "[\"ref:kaikki:en-tu-pt-pron-Figllm6u\"]",
+  "nem": "[\"ref:kaikki:en-nem-pt-adv-pt:neither_nor\",\"ref:kaikki:en-nem-pt-conj-pt:also_not\",\"ref:kaikki:en-nem-pt-conj-pt:and_not\"]",
+  "mãe": "[\"ref:kaikki:en-mãe-pt-noun-C9vj2hYz\",\"ref:kaikki:en-mãe-pt-noun-xAROUVCE\"]",
+  "alguma": "[\"ref:kaikki:en-algum-pt-pron-406XzW0w\"]",
+  "vocês": "[\"ref:kaikki:en-vocês-pt-pron-aHwS9jXI\"]",
+  "olá": "[\"ref:kaikki:en-olá-pt-intj-5e1KGAZx\"]",
+  "faz": "[\"ref:kaikki:en-fazer-pt-verb--I8By790\",\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\",\"ref:kaikki:en-fazer-pt-verb-aUziHezw\",\"ref:kaikki:en-fazer-pt-verb-ayAQJK5h\"]",
+  "ficar": "[\"ref:kaikki:en-ficar-pt-verb-pt:to_become\",\"ref:kaikki:en-ficar-pt-verb-pt:to_remain_in_a_place\",\"ref:kaikki:en-ficar-pt-verb-pt:to_stay_at\"]",
+  "dar": "[\"ref:kaikki:en-dar-pt-verb-4T4IY1-~\",\"ref:kaikki:en-dar-pt-verb-EGXQ5eo-\",\"ref:kaikki:en-dar-pt-verb-QJVx~IIu\"]",
+  "apenas": "[\"ref:kaikki:en-apenas-pt-adv-lt7Pw1sK\"]",
+  "vais": "[\"ref:kaikki:en-ir-pt-verb-pt:forms_the_future_tense\",\"ref:kaikki:en-ir-pt-verb-pt:to_move_to_a_destination\"]",
+  "diz": "[\"ref:kaikki:en-dizer-pt-verb-pt:to_say_that\",\"ref:kaikki:en-dizer-pt-verb-pt:to_speak\",\"ref:kaikki:en-dizer-pt-verb-pt:to_tell_something\"]",
+  "podemos": "[\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_ability_to\",\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_permission_to\"]",
+  "pouco": "[\"ref:kaikki:en-pouco-pt-adv-70aUm3aW\",\"ref:kaikki:en-pouco-pt-adv-KMZluHnw\",\"ref:kaikki:en-pouco-pt-pron-BbJfP8Wc\"]",
+  "queres": "[\"ref:kaikki:en-querer-pt-verb-ISYtOdX1\",\"ref:kaikki:en-querer-pt-verb-UQp~~50X\",\"ref:kaikki:en-querer-pt-verb-lNUNkoH8\"]",
+  "dinheiro": "[\"ref:kaikki:en-dinheiro-pt-noun-qREOrl7D\"]",
+  "comigo": "[\"ref:kaikki:en-comigo-pt-adv-M8Z5qCkG\"]",
+  "qualquer": "[\"ref:kaikki:en-qualquer-pt-pron-pt:any\",\"ref:kaikki:en-qualquer-pt-pron-pt:anyone\"]",
+  "deve": "[\"ref:kaikki:en-dever-pt-verb-CF0Pqi80\",\"ref:kaikki:en-dever-pt-verb-ZbuvLvQW\",\"ref:kaikki:en-dever-pt-verb-sD0ZaLwc\"]",
+  "mundo": "[\"ref:kaikki:en-mundo-pt-noun-pt:Earth\",\"ref:kaikki:en-mundo-pt-noun-pt:humanity\"]",
+  "qual": "[\"ref:kaikki:en-qual-pt-det-d7wGxV0p\"]",
+  "hoje": "[\"ref:kaikki:en-hoje-pt-adv-CFZoHEkG\"]",
+  "seja": "[\"ref:kaikki:en-ser-pt-verb-pt:to_be_an_example_of\",\"ref:kaikki:en-ser-pt-verb-pt:to_have_the_given_quality\"]",
+  "vá": "[\"ref:kaikki:en-ir-pt-verb-hvYgqWbb\",\"ref:kaikki:en-ir-pt-verb-pt:to_begin_an_action\",\"ref:kaikki:en-ir-pt-verb-pt:to_move_to_a_destination\"]",
+  "podes": "[\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_ability_to\",\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_permission_to\"]",
+  "queria": "[\"ref:kaikki:en-querer-pt-verb-ISYtOdX1\",\"ref:kaikki:en-querer-pt-verb-UQp~~50X\",\"ref:kaikki:en-querer-pt-verb-lNUNkoH8\"]",
+  "outro": "[\"ref:kaikki:en-outro-pt-det--6AP08L-\",\"ref:kaikki:en-outro-pt-pron-5nFOpJzz\"]",
+  "nome": "[\"ref:kaikki:en-nome-pt-noun-RlIPgNyE\"]",
+  "problema": "[\"ref:kaikki:en-problema-pt-noun-xacGJtLF\"]",
+  "pois": "[\"ref:kaikki:en-pois-pt-adv-OZm0MpFc\",\"ref:kaikki:en-pois-pt-conj-9tFTusa2\"]",
+  "quanto": "[\"ref:kaikki:en-quanto-pt-adv-FigUndpt\",\"ref:kaikki:en-quanto-pt-prep-o3YuQOz2\"]",
+  "sair": "[\"ref:kaikki:en-sair-pt-verb-8fGwl1xR\",\"ref:kaikki:en-sair-pt-verb-WpOZBil9\"]",
+  "ajudar": "[\"ref:kaikki:en-ajudar-pt-verb-Fy3DIQOY\"]",
+  "carro": "[\"ref:kaikki:en-carro-pt-noun-4UyW-6dR\"]",
+  "aconteceu": "[\"ref:kaikki:en-acontecer-pt-verb-xxkx0kIf\"]",
+  "têm": "[\"ref:kaikki:en-ter-pt-verb-1K4h1hf8\",\"ref:kaikki:en-ter-pt-verb-F0SM4H13\",\"ref:kaikki:en-ter-pt-verb-LxxPmi7t\",\"ref:kaikki:en-ter-pt-verb-pt:forms_the_perfect\"]",
+  "dentro": "[\"ref:kaikki:en-dentro-pt-adv-pt:indoors\",\"ref:kaikki:en-dentro-pt-adv-pt:inside\"]",
+  "hora": "[\"ref:kaikki:en-hora-pt-noun-pt:hour\",\"ref:kaikki:en-hora-pt-noun-pt:time\"]",
+  "contigo": "[\"ref:kaikki:en-contigo-pt-adv-Q76lZJd4\"]",
+  "pensar": "[\"ref:kaikki:en-pensar-pt-verb-84C3adv8\"]",
+  "embora": "[\"ref:kaikki:en-embora-pt-conj-B1w40H4C\"]",
+  "algum": "[\"ref:kaikki:en-algum-pt-pron-406XzW0w\"]",
+  "más": "[\"ref:kaikki:en-mau-pt-adj-LwXUtonS\",\"ref:kaikki:en-mau-pt-adj-Trt5fPrE\"]",
+  "deixar": "[\"ref:kaikki:en-deixar-pt-verb-pt:to_end_a_relation\",\"ref:kaikki:en-deixar-pt-verb-pt:to_exit\",\"ref:kaikki:en-deixar-pt-verb-pt:to_give_permission_to\"]",
+  "dá": "[\"ref:kaikki:en-dar-pt-verb-4T4IY1-~\",\"ref:kaikki:en-dar-pt-verb-QJVx~IIu\",\"ref:kaikki:en-dar-pt-verb-sj~fP1QZ\",\"ref:kaikki:en-dar-pt-verb-u1wf2yyD\"]",
+  "ei": "[\"ref:kaikki:en-ei-pt-intj-Q97CZK6i\"]",
+  "matar": "[\"ref:kaikki:en-matar-pt-verb-pt:to_kill\"]",
+  "encontrar": "[\"ref:kaikki:en-encontrar-pt-verb-CQZSErss\",\"ref:kaikki:en-encontrar-pt-verb-no9flbpH\"]",
+  "tentar": "[\"ref:kaikki:en-tentar-pt-verb-48o2MB~B\"]",
+  "amor": "[\"ref:kaikki:en-amor-pt-noun-aG90apW2\"]",
+  "sinto": "[\"ref:kaikki:en-sentir-pt-verb-9C4jcmAF\",\"ref:kaikki:en-sentir-pt-verb-i8KNn4g4\",\"ref:kaikki:en-sentir-pt-verb-m8yWuL3O\",\"ref:kaikki:en-sentir-pt-verb-~hCDHpin\"]",
+  "entre": "[\"ref:kaikki:en-entre-pt-prep-EBaXmCG8\",\"ref:kaikki:en-entre-pt-prep-JgMml55a\",\"ref:kaikki:en-entre-pt-prep-KN~LCXH-\"]",
+  "momento": "[\"ref:kaikki:en-momento-pt-noun-77b7F3C2\"]",
+  "desde": "[\"ref:kaikki:en-desde-pt-prep-a1o97QFq\"]",
+  "voltar": "[\"ref:kaikki:en-voltar-pt-verb-1igvhEg3\"]",
+  "desculpe": "[\"ref:kaikki:en-desculpar-pt-verb-QQlSfT4C\",\"ref:kaikki:en-desculpar-pt-verb-fuoJSv6t\"]",
+  "aquele": "[\"ref:kaikki:en-aquele-pt-det-6BJged3p\"]",
+  "pensei": "[\"ref:kaikki:en-pensar-pt-verb-84C3adv8\"]",
+  "atrás": "[\"ref:kaikki:en-atrás-pt-adv-HIuh2STH\",\"ref:kaikki:en-atrás-pt-adv-TgswzRxo\",\"ref:kaikki:en-atrás-pt-adv-layoM7Ww\"]",
+  "somos": "[\"ref:kaikki:en-ser-pt-verb-pt:to_be_an_example_of\",\"ref:kaikki:en-ser-pt-verb-pt:to_have_the_given_quality\"]",
+  "sabia": "[\"ref:kaikki:en-saber-pt-verb-pt:to_know_a_fact\"]",
+  "ali": "[\"ref:kaikki:en-ali-pt-adv-wbYwQfCo\"]",
+  "duas": "[\"ref:kaikki:en-dois-pt-num-iMcEmlSc\"]",
+  "horas": "[\"ref:kaikki:en-hora-pt-noun-pt:hour\",\"ref:kaikki:en-hora-pt-noun-pt:time\"]",
+  "levar": "[\"ref:kaikki-senseid:en-levar-pt-verb-pt:to move something to a destination|pt:to accompany\",\"ref:kaikki:en-levar-pt-verb-pt:to_move_something_to_a_destination\",\"ref:kaikki:en-levar-pt-verb-pt:to_require_time\"]",
+  "podem": "[\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_ability_to\",\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_permission_to\"]",
+  "sido": "[\"ref:kaikki:en-ser-pt-verb-pt:forms_the_passive_voice\",\"ref:kaikki:en-ser-pt-verb-pt:to_be_an_example_of\",\"ref:kaikki:en-ser-pt-verb-pt:to_have_the_given_quality\"]",
+  "razão": "[\"ref:kaikki:en-razão-pt-noun-QupkCjgU\",\"ref:kaikki:en-razão-pt-noun-fcYH~KKW\"]",
+  "tenha": "[\"ref:kaikki:en-ter-pt-verb-F0SM4H13\",\"ref:kaikki:en-ter-pt-verb-LxxPmi7t\",\"ref:kaikki:en-ter-pt-verb-pt:forms_the_perfect\",\"ref:kaikki:en-ter-pt-verb-wrCVkK-n\"]",
+  "diga": "[\"ref:kaikki:en-dizer-pt-verb-pt:to_say_that\",\"ref:kaikki:en-dizer-pt-verb-pt:to_speak\",\"ref:kaikki:en-dizer-pt-verb-pt:to_tell_something\"]",
+  "realmente": "[\"ref:kaikki:en-realmente-pt-adv-ATT65H~j\"]",
+  "precisa": "[\"ref:kaikki:en-precisar-pt-verb-fCXPH8yL\",\"ref:kaikki:en-precisar-pt-verb-fbvlVerk\"]",
+  "nenhum": "[\"ref:kaikki:en-nenhum-pt-det-NZYRjOsv\"]",
+  "frente": "[\"ref:kaikki:en-frente-pt-noun-Z54T6Wz7\"]",
+  "família": "[\"ref:kaikki:en-família-pt-noun--llDnreO\"]",
+  "cabeça": "[\"ref:kaikki:en-cabeça-pt-noun-xMcPJ0x2\"]",
+  "entrar": "[\"ref:kaikki:en-entrar-pt-verb-~cI7z~x3\"]",
+  "cada": "[\"ref:kaikki:en-cada-pt-pron-S6dgBYIB\"]",
+  "seria": "[\"ref:kaikki:en-ser-pt-verb-pt:to_be_an_example_of\",\"ref:kaikki:en-ser-pt-verb-pt:to_have_the_given_quality\"]",
+  "fiz": "[\"ref:kaikki:en-fazer-pt-verb--I8By790\",\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\"]",
+  "estas": "[\"ref:kaikki:en-este-pt-det-ByQDEpNM\",\"ref:kaikki:en-este-pt-det-fSA1wSgL\"]",
+  "passar": "[\"ref:kaikki-senseid:en-passar-pt-verb-pt:to become valid|pt:to complete a course\",\"ref:kaikki-senseid:en-passar-pt-verb-pt:to pass by|pt:go unheeded or neglected\",\"ref:kaikki-senseid:en-passar-pt-verb-pt:to pass by|pt:to stop by\",\"ref:kaikki:en-passar-pt-verb-pt:to_do_something_for_a_time\",\"ref:kaikki:en-passar-pt-verb-pt:to_take_place\"]",
+  "cidade": "[\"ref:kaikki:en-cidade-pt-noun-buP~kWBn\"]",
+  "fica": "[\"ref:kaikki:en-ficar-pt-verb-pt:to_be_somewhere\"]",
+  "contra": "[\"ref:kaikki:en-contra-pt-prep-pxjj6a76\"]",
+  "feliz": "[\"ref:kaikki:en-feliz-pt-adj-SJ9xnK35\"]",
+  "polícia": "[\"ref:kaikki:en-polícia-pt-noun-E2b6xxFG\"]",
+  "vos": "[\"ref:kaikki:en-vos-pt-pron-JjFjrmLZ\"]",
+  "espero": "[\"ref:kaikki:en-esperar-pt-verb-pt:to_hope_that\"]",
+  "achas": "[\"ref:kaikki:en-achar-pt-verb-YczFDU~Y\",\"ref:kaikki:en-achar-pt-verb-YoETKySV\"]",
+  "podia": "[\"ref:kaikki:en-poder-pt-verb-pt:it_is_possible_that\",\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_ability_to\"]",
+  "ah": "[\"ref:kaikki:en-ah-pt-intj-aqjEMgrn\",\"ref:kaikki:en-ah-pt-intj-u51dzD~o\"]",
+  "alguns": "[\"ref:kaikki:en-algum-pt-pron-406XzW0w\"]",
+  "devia": "[\"ref:kaikki:en-dever-pt-verb-CF0Pqi80\"]",
+  "ouvir": "[\"ref:kaikki:en-ouvir-pt-verb-pt:to_hear\"]",
+  "chegar": "[\"ref:kaikki:en-chegar-pt-verb-pt:to_arrive_at\",\"ref:kaikki:en-chegar-pt-verb-pt:to_reach_the_present\"]",
+  "deixe": "[\"ref:kaikki:en-deixar-pt-verb-pt:not_to_bother\",\"ref:kaikki:en-deixar-pt-verb-pt:to_give_permission_to\"]",
+  "importa": "[\"ref:kaikki:en-importar-pt-verb-HPyfi2eP\",\"ref:kaikki:en-importar-pt-verb-ICcJ~~78\",\"ref:kaikki:en-importar-pt-verb-jpjtMdBk\"]",
+  "poderia": "[\"ref:kaikki:en-poder-pt-verb-pt:it_is_possible_that\",\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_ability_to\"]",
+  "história": "[\"ref:kaikki:en-história-pt-noun-JZqo75io\",\"ref:kaikki:en-história-pt-noun-xHg2Hmhp\"]",
+  "enquanto": "[\"ref:kaikki:en-enquanto-pt-conj-6zqiXVvn\",\"ref:kaikki:en-enquanto-pt-prep-aJMPOWxt\"]",
+  "aquela": "[\"ref:kaikki:en-aquele-pt-det-6BJged3p\"]",
+  "morrer": "[\"ref:kaikki:en-morrer-pt-verb-pt:to_stop_living\"]",
+  "aquilo": "[\"ref:kaikki:en-aquele-pt-pron-o0jA8vc4\"]",
+  "juntos": "[\"ref:kaikki:en-junto-pt-adj-DCRzTXv1\"]",
+  "trabalhar": "[\"ref:kaikki:en-trabalhar-pt-verb-NUXZBUUy\"]",
+  "rápido": "[\"ref:kaikki:en-rápido-pt-adj-iHuE0dy-\",\"ref:kaikki:en-rápido-pt-adv-8zQhDDoX\"]",
+  "importante": "[\"ref:kaikki:en-importante-pt-adj-iCQIBxas\"]",
+  "lhes": "[\"ref:kaikki:en-lhes-pt-pron-RxUW69g0\",\"ref:kaikki:en-lhes-pt-pron-g-wOyojV\"]",
+  "sorte": "[\"ref:kaikki:en-sorte-pt-noun-p6ReqSPG\"]",
+  "vir": "[\"ref:kaikki:en-vir-pt-verb-pt:to_arrive\"]",
+  "precisamos": "[\"ref:kaikki:en-precisar-pt-verb-fCXPH8yL\",\"ref:kaikki:en-precisar-pt-verb-fbvlVerk\"]",
+  "tive": "[\"ref:kaikki:en-ter-pt-verb-1K4h1hf8\",\"ref:kaikki:en-ter-pt-verb-F0SM4H13\"]",
+  "usar": "[\"ref:kaikki:en-usar-pt-verb-pt:to_sport\",\"ref:kaikki:en-usar-pt-verb-pt:to_utilise\"]",
+  "estes": "[\"ref:kaikki:en-este-pt-det-fSA1wSgL\"]",
+  "algumas": "[\"ref:kaikki:en-algum-pt-pron-406XzW0w\"]",
+  "vejo": "[\"ref:kaikki:en-ver-pt-verb-E7ufxT7k\",\"ref:kaikki:en-ver-pt-verb-nCAvX5Ob\",\"ref:kaikki:en-ver-pt-verb-vJ-lbQxr\"]",
+  "significa": "[\"ref:kaikki:en-significar-pt-verb-DCFGoZ7v\",\"ref:kaikki:en-significar-pt-verb-~Zf30Qht\"]",
+  "faça": "[\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\"]",
+  "difícil": "[\"ref:kaikki:en-difícil-pt-adj-WcAidA7s\"]",
+  "única": "[\"ref:kaikki:en-único-pt-adj-H70YOmZn\"]",
+  "acabou": "[\"ref:kaikki:en-acabar-pt-verb-pt:to_be_over\",\"ref:kaikki:en-acabar-pt-verb-pt:to_have_just\"]",
+  "sangue": "[\"ref:kaikki:en-sangue-pt-noun-KQ44wHGk\",\"ref:kaikki:en-sangue-pt-noun-fzf5~hTt\"]",
+  "perto": "[\"ref:kaikki:en-perto-pt-adv-oCtPLPZk\"]",
+  "viu": "[\"ref:kaikki:en-ver-pt-verb-E7ufxT7k\"]",
+  "faço": "[\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\"]",
+  "espere": "[\"ref:kaikki:en-esperar-pt-verb-pt:to_await\"]",
+  "fazendo": "[\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\"]",
+  "guerra": "[\"ref:kaikki:en-guerra-pt-noun-pt:armed_conflict\",\"ref:kaikki:en-guerra-pt-noun-pt:warfare\"]",
+  "acredito": "[\"ref:kaikki:en-acreditar-pt-verb-5QLetnOh\",\"ref:kaikki:en-acreditar-pt-verb-Ao9jd7BC\",\"ref:kaikki:en-acreditar-pt-verb-hU4dJZnT\"]",
+  "buscar": "[\"ref:kaikki:en-buscar-pt-verb-UMQzGu2b\",\"ref:kaikki:en-buscar-pt-verb-fbxHgXfO\"]",
+  "mesma": "[\"ref:kaikki:en-mesmo-pt-adj-pt:intensifier\",\"ref:kaikki:en-mesmo-pt-adj-pt:not_different\",\"ref:kaikki:en-mesmo-pt-adj-pt:similar\"]",
+  "acontecer": "[\"ref:kaikki:en-acontecer-pt-verb-xxkx0kIf\"]",
+  "contar": "[\"ref:kaikki:en-contar-pt-verb-OdKy9IPu\",\"ref:kaikki:en-contar-pt-verb-phP8mneL\"]",
+  "querem": "[\"ref:kaikki:en-querer-pt-verb-ISYtOdX1\",\"ref:kaikki:en-querer-pt-verb-UQp~~50X\",\"ref:kaikki:en-querer-pt-verb-lNUNkoH8\"]",
+  "adeus": "[\"ref:kaikki:en-adeus-pt-intj-iNNEvytk\"]",
+  "ouvi": "[\"ref:kaikki:en-ouvir-pt-verb-pt:to_hear\"]",
+  "corpo": "[\"ref:kaikki:en-corpo-pt-noun-3ssu46qz\",\"ref:kaikki:en-corpo-pt-noun-Iw2DWNyO\"]",
+  "começar": "[\"ref:kaikki:en-começar-pt-verb-pt:to_begin_auxiliary\",\"ref:kaikki:en-começar-pt-verb-pt:to_begin_intransitive\"]",
+  "dormir": "[\"ref:kaikki:en-dormir-pt-verb-pt:to_fall_asleep\",\"ref:kaikki:en-dormir-pt-verb-pt:to_have_sex_with\",\"ref:kaikki:en-dormir-pt-verb-pt:to_sleep\"]",
+  "tirar": "[\"ref:kaikki:en-tirar-pt-verb-seVmRAVd\",\"ref:kaikki:en-tirar-pt-verb-wRWqLXhv\"]",
+  "sabemos": "[\"ref:kaikki:en-saber-pt-verb-pt:to_know_a_fact\"]",
+  "número": "[\"ref:kaikki:en-número-pt-noun-0kv6u~Gl\",\"ref:kaikki:en-número-pt-noun-E9EGsC3j\",\"ref:kaikki:en-número-pt-noun-L5~Exh84\",\"ref:kaikki:en-número-pt-noun-NcTGVQ3D\",\"ref:kaikki:en-número-pt-noun-VKH4PZqn\"]",
+  "tomar": "[\"ref:kaikki:en-tomar-pt-verb-0ICXz82p\",\"ref:kaikki:en-tomar-pt-verb-6RR3vpr2\",\"ref:kaikki:en-tomar-pt-verb-KYY4R9bm\"]",
+  "olhe": "[\"ref:kaikki:en-olhar-pt-verb-p2wgJpFb\"]",
+  "teve": "[\"ref:kaikki:en-ter-pt-verb-1K4h1hf8\",\"ref:kaikki:en-ter-pt-verb-F0SM4H13\"]",
+  "chefe": "[\"ref:kaikki:en-chefe-pt-noun-TyOLVYkf\",\"ref:kaikki:en-chefe-pt-noun-VBNai3bx\"]",
+  "havia": "[\"ref:kaikki:en-haver-pt-verb-pt:exist\",\"ref:kaikki:en-haver-pt-verb-pt:forms_the_perfect\"]",
+  "umas": "[\"ref:kaikki:en-um-pt-article-pt:article\"]",
+  "nenhuma": "[\"ref:kaikki:en-nenhum-pt-pron-AtFJpZIq\"]",
+  "escola": "[\"ref:kaikki:en-escola-pt-noun-AHyfV7Ff\"]",
+  "parar": "[\"ref:kaikki:en-parar-pt-verb-HqXcqrnP\",\"ref:kaikki:en-parar-pt-verb-zy51Exuj\"]",
+  "ouve": "[\"ref:kaikki:en-ouvir-pt-verb-MT1vSB8J\",\"ref:kaikki:en-ouvir-pt-verb-pt:to_hear\"]",
+  "perder": "[\"ref:kaikki:en-perder-pt-verb-2iAU6bSq\",\"ref:kaikki:en-perder-pt-verb-7KynO5p1\",\"ref:kaikki:en-perder-pt-verb-8GBNjFJK\"]",
+  "maior": "[\"ref:kaikki:en-maior-pt-adj-HWbyNQOS\"]",
+  "esperar": "[\"ref:kaikki:en-esperar-pt-verb-pt:to_await\"]",
+  "sabem": "[\"ref:kaikki:en-saber-pt-verb-pt:to_have_heard_of\",\"ref:kaikki:en-saber-pt-verb-pt:to_know_a_fact\"]",
+  "mão": "[\"ref:kaikki:en-mão-pt-noun-GwAXBqQY\"]",
+  "sentir": "[\"ref:kaikki:en-sentir-pt-verb-0hkQ5oJG\",\"ref:kaikki:en-sentir-pt-verb-9C4jcmAF\",\"ref:kaikki:en-sentir-pt-verb-i8KNn4g4\"]",
+  "venha": "[\"ref:kaikki:en-vir-pt-verb-pt:to_arrive\"]",
+  "eram": "[\"ref:kaikki:en-ser-pt-verb-pt:to_be_an_example_of\",\"ref:kaikki:en-ser-pt-verb-pt:to_have_the_given_quality\"]",
+  "muitas": "[\"ref:kaikki:en-muito-pt-pron-uhND1qnk\"]",
+  "coração": "[\"ref:kaikki:en-coração-pt-noun-6qiUgiFY\",\"ref:kaikki:en-coração-pt-noun-8zvRmEii\"]",
+  "devo": "[\"ref:kaikki:en-dever-pt-verb-CF0Pqi80\"]",
+  "segurança": "[\"ref:kaikki:en-segurança-pt-noun-AmiBofns\",\"ref:kaikki:en-segurança-pt-noun-EXgmuR-V\"]",
+  "elas": "[\"ref:kaikki:en-elas-pt-pron-EWtaBXn4\"]",
+  "pára": "[\"ref:kaikki:en-pára-pt-verb-UadlZuN8\"]",
+  "morreu": "[\"ref:kaikki:en-morrer-pt-verb-pt:to_stop_living\"]",
+  "gostaria": "[\"ref:kaikki:en-gostar-pt-verb-0W5OiILv\"]",
+  "teria": "[\"ref:kaikki:en-ter-pt-verb-pt:forms_the_perfect\"]",
+  "pedir": "[\"ref:kaikki:en-pedir-pt-verb-utT3XMpF\"]",
+  "fácil": "[\"ref:kaikki:en-fácil-pt-adj-XVASZZRl\"]",
+  "conseguir": "[\"ref:kaikki:en-conseguir-pt-verb-UZUArsqq\",\"ref:kaikki:en-conseguir-pt-verb-nukS~UqV\",\"ref:kaikki:en-conseguir-pt-verb-sF2nKqgR\"]",
+  "muitos": "[\"ref:kaikki:en-muito-pt-pron-uhND1qnk\"]",
+  "estavam": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "presidente": "[\"ref:kaikki:en-presidente-pt-noun-DDFi7ogA\",\"ref:kaikki:en-presidente-pt-noun-RXXtGpKz\"]",
+  "tivesse": "[\"ref:kaikki:en-ter-pt-verb-1K4h1hf8\",\"ref:kaikki:en-ter-pt-verb-pt:forms_the_perfect\"]",
+  "mil": "[\"ref:kaikki:en-mil-pt-adj-0U7UDDHx\"]",
+  "errado": "[\"ref:kaikki:en-errado-pt-adj-6nw0rP24\"]",
+  "conheço": "[\"ref:kaikki:en-conhecer-pt-verb-pt:to_know\"]",
+  "demais": "[\"ref:kaikki:en-demais-pt-adv-vcwrIKyG\"]",
+  "longe": "[\"ref:kaikki:en-longe-pt-adv-pubnHixO\"]",
+  "gosta": "[\"ref:kaikki:en-gostar-pt-verb-0W5OiILv\"]",
+  "deveria": "[\"ref:kaikki:en-dever-pt-verb-CF0Pqi80\"]",
+  "padre": "[\"ref:kaikki:en-padre-pt-noun--dZSJ6Dx\",\"ref:kaikki:en-padre-pt-noun-pt:Christian_priest\"]",
+  "disseste": "[\"ref:kaikki:en-dizer-pt-verb-pt:to_say_that\",\"ref:kaikki:en-dizer-pt-verb-pt:to_speak\"]",
+  "possível": "[\"ref:kaikki:en-possível-pt-adj-IIoSKL-d\",\"ref:kaikki:en-possível-pt-adj-xHc9ry5q\"]",
+  "pensa": "[\"ref:kaikki:en-pensar-pt-verb-84C3adv8\"]",
+  "pagar": "[\"ref:kaikki:en-pagar-pt-verb-0kK1BFNP\",\"ref:kaikki:en-pagar-pt-verb-QRXcyGqf\"]",
+  "conhecer": "[\"ref:kaikki:en-conhecer-pt-verb-pt:to_get_to_know\",\"ref:kaikki:en-conhecer-pt-verb-pt:to_know\"]",
+  "único": "[\"ref:kaikki:en-único-pt-adj-H70YOmZn\"]",
+  "papá": "[\"ref:kaikki:en-papá-pt-noun-Z5GrILXt\"]",
+  "rapariga": "[\"ref:kaikki:en-rapariga-pt-noun-KC9oW8t3\"]",
+  "acabar": "[\"ref:kaikki:en-acabar-pt-verb-pt:to_be_over\",\"ref:kaikki:en-acabar-pt-verb-pt:to_make_done\",\"ref:kaikki:en-acabar-pt-verb-pt:to_put_an_end_to\"]",
+  "exactamente": "[\"ref:kaikki:en-exactamente-pt-adv-xMB333q8\"]",
+  "possa": "[\"ref:kaikki:en-poder-pt-verb-exbQdxYL\",\"ref:kaikki:en-poder-pt-verb-pt:it_is_possible_that\",\"ref:kaikki:en-poder-pt-verb-pt:to_have_the_ability_to\"]",
+  "demasiado": "[\"ref:kaikki:en-demasiado-pt-adv-wyofMc~m\"]",
+  "fizeste": "[\"ref:kaikki:en-fazer-pt-verb--I8By790\",\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\"]",
+  "matou": "[\"ref:kaikki:en-matar-pt-verb-pt:to_commit_suicide\",\"ref:kaikki:en-matar-pt-verb-pt:to_kill\"]",
+  "sala": "[\"ref:kaikki:en-sala-pt-noun-m890mj0k\"]",
+  "mudar": "[\"ref:kaikki:en-mudar-pt-verb-u3v8izWZ\"]",
+  "provavelmente": "[\"ref:kaikki:en-provavelmente-pt-adv-qO8BKD1l\"]",
+  "seguir": "[\"ref:kaikki:en-seguir-pt-verb-54JU3r9k\",\"ref:kaikki:en-seguir-pt-verb-U7zLFsoB\"]",
+  "manter": "[\"ref:kaikki:en-manter-pt-verb-zJC7Suho\"]",
+  "fique": "[\"ref:kaikki:en-ficar-pt-verb-pt:to_become\",\"ref:kaikki:en-ficar-pt-verb-pt:to_remain_in_a_place\",\"ref:kaikki:en-ficar-pt-verb-pt:to_stay_at\"]",
+  "ai": "[\"ref:kaikki:en-ai-pt-intj-4ggpDG1U\",\"ref:kaikki:en-ai-pt-intj-xJWAYsjy\"]",
+  "diferente": "[\"ref:kaikki:en-diferente-pt-adj-pP6ZAldV\"]",
+  "boca": "[\"ref:kaikki:en-boca-pt-noun-reyNzStv\"]",
+  "ficou": "[\"ref:kaikki:en-ficar-pt-verb-pt:to_become\",\"ref:kaikki:en-ficar-pt-verb-pt:to_stay_at\"]",
+  "chamar": "[\"ref:kaikki:en-chamar-pt-verb-AfonvK35\",\"ref:kaikki:en-chamar-pt-verb-K-QL7Qui\",\"ref:kaikki:en-chamar-pt-verb-oh4MFByx\"]",
+  "toma": "[\"ref:kaikki:en-tomar-pt-verb-0ICXz82p\",\"ref:kaikki:en-tomar-pt-verb-KYY4R9bm\"]",
+  "dizem": "[\"ref:kaikki:en-dizer-pt-verb-pt:to_say_that\",\"ref:kaikki:en-dizer-pt-verb-pt:to_speak\"]",
+  "fazem": "[\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\"]",
+  "existe": "[\"ref:kaikki:en-existir-pt-verb-Kv~lWPnl\"]",
+  "acreditar": "[\"ref:kaikki:en-acreditar-pt-verb-5QLetnOh\",\"ref:kaikki:en-acreditar-pt-verb-Ao9jd7BC\",\"ref:kaikki:en-acreditar-pt-verb-hU4dJZnT\"]",
+  "fazes": "[\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\"]",
+  "licença": "[\"ref:kaikki:en-licença-pt-noun--nXdyQQp\",\"ref:kaikki:en-licença-pt-noun-1luJMTRF\",\"ref:kaikki:en-licença-pt-noun-FLY19xF1\"]",
+  "especial": "[\"ref:kaikki:en-especial-pt-adj-fUxciJTg\"]",
+  "consegue": "[\"ref:kaikki:en-conseguir-pt-verb-sF2nKqgR\"]",
+  "nave": "[\"ref:kaikki:en-nave-pt-noun-5dW5cROe\"]",
+  "esteja": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "país": "[\"ref:kaikki:en-país-pt-noun-pt:land\",\"ref:kaikki:en-país-pt-noun-pt:nation\"]",
+  "oi": "[\"ref:kaikki:en-oi-pt-intj--mkLggYe\"]",
+  "deixou": "[\"ref:kaikki:en-deixar-pt-verb-pt:to_cause\",\"ref:kaikki:en-deixar-pt-verb-pt:to_end_a_relation\",\"ref:kaikki:en-deixar-pt-verb-pt:to_exit\",\"ref:kaikki:en-deixar-pt-verb-pt:to_give_permission_to\",\"ref:kaikki:en-deixar-pt-verb-pt:to_leave_in_a_state\"]",
+  "sozinho": "[\"ref:kaikki:en-sozinho-pt-adj-OFes1Tco\",\"ref:kaikki:en-sozinho-pt-adv-OFes1Tco\"]",
+  "passou": "[\"ref:kaikki-senseid:en-passar-pt-verb-pt:to pass by|pt:go unheeded or neglected\",\"ref:kaikki-senseid:en-passar-pt-verb-pt:to pass by|pt:to become greater than\",\"ref:kaikki-senseid:en-passar-pt-verb-pt:to pass by|pt:to stop by\",\"ref:kaikki:en-passar-pt-verb-pt:to_be_over1\",\"ref:kaikki:en-passar-pt-verb-pt:to_do_something_for_a_time\",\"ref:kaikki:en-passar-pt-verb-pt:to_pass_by\",\"ref:kaikki:en-passar-pt-verb-pt:to_stay_somewhere\",\"ref:kaikki:en-passar-pt-verb-pt:to_take_place\"]",
+  "queremos": "[\"ref:kaikki:en-querer-pt-verb-ISYtOdX1\",\"ref:kaikki:en-querer-pt-verb-UQp~~50X\",\"ref:kaikki:en-querer-pt-verb-lNUNkoH8\"]",
+  "depressa": "[\"ref:kaikki:en-depressa-pt-adv-oJPT9ez~\"]",
+  "pare": "[\"ref:kaikki:en-parar-pt-verb-HqXcqrnP\",\"ref:kaikki:en-parar-pt-verb-zy51Exuj\"]",
+  "quiser": "[\"ref:kaikki:en-querer-pt-verb-ISYtOdX1\",\"ref:kaikki:en-querer-pt-verb-UQp~~50X\"]",
+  "ar": "[\"ref:kaikki:en-ar-pt-noun-n-Qw5SdG\"]",
+  "descobrir": "[\"ref:kaikki:en-descobrir-pt-verb-4aNQe9zR\",\"ref:kaikki:en-descobrir-pt-verb-ESR4OC7t\"]",
+  "chegou": "[\"ref:kaikki:en-chegar-pt-verb-pt:to_arrive_at\",\"ref:kaikki:en-chegar-pt-verb-pt:to_reach_the_present\"]",
+  "falando": "[\"ref:kaikki:en-falar-pt-verb-RMkSr-yL\",\"ref:kaikki:en-falar-pt-verb-SuqWjjbe\",\"ref:kaikki:en-falar-pt-verb-SuqWjjbe1\"]",
+  "partir": "[\"ref:kaikki:en-partir-pt-verb-0dbKxOcf\"]",
+  "mostrar": "[\"ref:kaikki:en-mostrar-pt-verb-IZQeOxlX\"]",
+  "sistema": "[\"ref:kaikki:en-sistema-pt-noun-u8XmYeEG\"]",
+  "perguntar": "[\"ref:kaikki:en-perguntar-pt-verb-JYVdCmln\"]",
+  "comprar": "[\"ref:kaikki:en-comprar-pt-verb-fi7Tk9Ul\"]",
+  "ligar": "[\"ref:kaikki:en-ligar-pt-verb-wqBt7pMx\"]",
+  "brincar": "[\"ref:kaikki:en-brincar-pt-verb-K7B8dCO~\",\"ref:kaikki:en-brincar-pt-verb-rHPc~Gkb\"]",
+  "casamento": "[\"ref:kaikki:en-casamento-pt-noun-7QCodaBg\",\"ref:kaikki:en-casamento-pt-noun-z5KdBqTm\"]",
+  "lembro": "[\"ref:kaikki:en-lembrar-pt-verb-NJUVyA4L\",\"ref:kaikki:en-lembrar-pt-verb-OC7Eux0Z\"]",
+  "houve": "[\"ref:kaikki:en-haver-pt-verb-pt:exist\",\"ref:kaikki:en-haver-pt-verb-pt:occur\"]",
+  "correr": "[\"ref:kaikki:en-correr-pt-verb-Fv-9X0tC\",\"ref:kaikki:en-correr-pt-verb-GdPFE75F\",\"ref:kaikki:en-correr-pt-verb-qeqlboLv\"]",
+  "fico": "[\"ref:kaikki:en-ficar-pt-verb-pt:forms_the_habitual\",\"ref:kaikki:en-ficar-pt-verb-pt:to_become\"]",
+  "salvar": "[\"ref:kaikki:en-salvar-pt-verb-NU5jnfqb\"]",
+  "último": "[\"ref:kaikki:en-último-pt-adj-Lt-Sut2Y\",\"ref:kaikki:en-último-pt-adj-WSeD0BeQ\"]",
+  "conhece": "[\"ref:kaikki:en-conhecer-pt-verb-pt:to_know\"]",
+  "lembra": "[\"ref:kaikki:en-lembrar-pt-verb-NJUVyA4L\",\"ref:kaikki:en-lembrar-pt-verb-OC7Eux0Z\"]",
+  "atenção": "[\"ref:kaikki:en-atenção-pt-noun-4Hh9JypD\"]",
+  "viste": "[\"ref:kaikki:en-ver-pt-verb-E7ufxT7k\",\"ref:kaikki:en-ver-pt-verb-d~5Qoppu\",\"ref:kaikki:en-ver-pt-verb-vJ-lbQxr\"]",
+  "grandes": "[\"ref:kaikki:en-grande-pt-adj-pt:great_in_importance\",\"ref:kaikki:en-grande-pt-adj-pt:great_in_size_or_extent\"]",
+  "encontrei": "[\"ref:kaikki:en-encontrar-pt-verb-CQZSErss\"]",
+  "pior": "[\"ref:kaikki:en-pior-pt-adj-3Ys3bC1K\",\"ref:kaikki:en-pior-pt-adj-lh3qkyNN\",\"ref:kaikki:en-pior-pt-adv-SUBUOLVx\"]",
+  "próprio": "[\"ref:kaikki:en-próprio-pt-adj-Wzl1ZRw8\"]",
+  "quis": "[\"ref:kaikki:en-querer-pt-verb-ISYtOdX1\",\"ref:kaikki:en-querer-pt-verb-UQp~~50X\"]",
+  "continuar": "[\"ref:kaikki:en-continuar-pt-verb-EvXWhSx-\",\"ref:kaikki:en-continuar-pt-verb-K7lqYcee\",\"ref:kaikki:en-continuar-pt-verb-crTk29Hd\"]",
+  "esteve": "[\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "estive": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "jogar": "[\"ref:kaikki:en-jogar-pt-verb-pt:to_play\"]",
+  "sequer": "[\"ref:kaikki:en-sequer-pt-adv-7DgGPIgf\"]",
+  "estavas": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "alto": "[\"ref:kaikki:en-alto-pt-adj-JB2vLnU6\",\"ref:kaikki:en-alto-pt-adj-bvfJsV7N\",\"ref:kaikki:en-alto-pt-adv-IkvgX5gn\"]",
+  "in": "[\"ref:kaikki:en-in-pt-adj-ZS8h6R-1\"]",
+  "modo": "[\"ref:kaikki:en-modo-pt-noun--YwphAVa\"]",
+  "devias": "[\"ref:kaikki:en-dever-pt-verb-CF0Pqi80\"]",
+  "entendo": "[\"ref:kaikki:en-entender-pt-verb-a9Y10lpu\"]",
+  "rei": "[\"ref:kaikki:en-rei-pt-noun-g02IUh~H\"]",
+  "aqueles": "[\"ref:kaikki:en-aquele-pt-det-6BJged3p\"]",
+  "preocupes": "[\"ref:kaikki:en-preocupar-pt-verb-YhZ3OYEY\",\"ref:kaikki:en-preocupar-pt-verb-keCBMxdE\"]",
+  "ganhar": "[\"ref:kaikki:en-ganhar-pt-verb--6ouVYs~\",\"ref:kaikki:en-ganhar-pt-verb-kf0~-YMh\"]",
+  "devem": "[\"ref:kaikki:en-dever-pt-verb-CF0Pqi80\",\"ref:kaikki:en-dever-pt-verb-sD0ZaLwc\"]",
+  "pé": "[\"ref:kaikki:en-pé-pt-noun-7f-4spOU\",\"ref:kaikki:en-pé-pt-noun-D7W1o9Zu\",\"ref:kaikki:en-pé-pt-noun-nGoYwedb\"]",
+  "pôr": "[\"ref:kaikki:en-pôr-pt-verb-pt:to_cause_to_be\",\"ref:kaikki:en-pôr-pt-verb-pt:to_put\"]",
+  "precisas": "[\"ref:kaikki:en-precisar-pt-verb-fCXPH8yL\",\"ref:kaikki:en-precisar-pt-verb-fbvlVerk\"]",
+  "acontece": "[\"ref:kaikki:en-acontecer-pt-verb-xxkx0kIf\"]",
+  "achei": "[\"ref:kaikki:en-achar-pt-verb-DLM4WnqQ\",\"ref:kaikki:en-achar-pt-verb-YoETKySV\"]",
+  "vim": "[\"ref:kaikki:en-vir-pt-verb-pt:to_arrive\"]",
+  "beber": "[\"ref:kaikki:en-beber-pt-verb--pXuEPyH\",\"ref:kaikki:en-beber-pt-verb-ayG9JThA\",\"ref:kaikki:en-beber-pt-verb-kTqFsi9T\"]",
+  "trouxe": "[\"ref:kaikki:en-trazer-pt-verb-aGxOrBeM\"]",
+  "arranjar": "[\"ref:kaikki:en-arranjar-pt-verb-MxuzXK~Y\",\"ref:kaikki:en-arranjar-pt-verb-k1CPJOSb\",\"ref:kaikki:en-arranjar-pt-verb-ktu5k0CM\"]",
+  "apanhar": "[\"ref:kaikki:en-apanhar-pt-verb-Xc3kWsW8\"]",
+  "pegar": "[\"ref:kaikki:en-pegar-pt-verb-fQguhLh5\",\"ref:kaikki:en-pegar-pt-verb-ltFVasTV\"]",
+  "natal": "[\"ref:kaikki:en-Natal-pt-name-LVEDTitV\"]",
+  "gostava": "[\"ref:kaikki:en-gostar-pt-verb-0W5OiILv\"]",
+  "precisar": "[\"ref:kaikki:en-precisar-pt-verb-fCXPH8yL\"]",
+  "grupo": "[\"ref:kaikki:en-grupo-pt-noun-4Yogw-Md\"]",
+  "cedo": "[\"ref:kaikki:en-cedo-pt-adv-5-9T7nVU\",\"ref:kaikki:en-cedo-pt-adv-y7dVidQb\"]",
+  "doutor": "[\"ref:kaikki:en-doutor-pt-noun-CaI9vO8o\"]",
+  "tratar": "[\"ref:kaikki:en-tratar-pt-verb-pt:to_care_for\",\"ref:kaikki:en-tratar-pt-verb-pt:to_treat_in_a_particular_way\"]",
+  "novamente": "[\"ref:kaikki:en-novamente-pt-adv-q6GsrweI\"]",
+  "prisão": "[\"ref:kaikki:en-prisão-pt-noun-TVkbdrcX\"]",
+  "trazer": "[\"ref:kaikki:en-trazer-pt-verb-aGxOrBeM\"]",
+  "devemos": "[\"ref:kaikki:en-dever-pt-verb-CF0Pqi80\"]",
+  "negócio": "[\"ref:kaikki:en-negócio-pt-noun-TCWFtF~F\",\"ref:kaikki:en-negócio-pt-noun-c5S5-eWN\"]",
+  "sob": "[\"ref:kaikki:en-sob-pt-prep-12d0imA3\"]",
+  "capaz": "[\"ref:kaikki:en-capaz-pt-adj-q8O0KW1S\"]",
+  "completamente": "[\"ref:kaikki:en-completamente-pt-adv-pt:fully\"]",
+  "sinal": "[\"ref:kaikki:en-sinal-pt-noun--aDh-LE1\",\"ref:kaikki:en-sinal-pt-noun-1Ax~339-\",\"ref:kaikki:en-sinal-pt-noun-CM6Kn5Sj\",\"ref:kaikki:en-sinal-pt-noun-hkxI6Xgd\"]",
+  "finalmente": "[\"ref:kaikki:en-finalmente-pt-adv-FxaNWqQ-\"]",
+  "portanto": "[\"ref:kaikki:en-portanto-pt-adv-VgcYJ-CF\"]",
+  "bonita": "[\"ref:kaikki:en-bonito-pt-adj-d1pHzMeC\"]",
+  "normal": "[\"ref:kaikki:en-normal-pt-adj-ILLZrOAi\"]",
+  "entra": "[\"ref:kaikki:en-entrar-pt-verb-~cI7z~x3\"]",
+  "fazemos": "[\"ref:kaikki:en-fazer-pt-verb--I8By790\",\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\"]",
+  "mesa": "[\"ref:kaikki:en-mesa-pt-noun-3sMVaobD\"]",
+  "procurar": "[\"ref:kaikki:en-procurar-pt-verb-P4HoUUkE\"]",
+  "cabelo": "[\"ref:kaikki:en-cabelo-pt-noun-e~7LprV4\"]",
+  "disseram": "[\"ref:kaikki:en-disseram-pt-verb-YCKJDWpp\"]",
+  "estávamos": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "faria": "[\"ref:kaikki:en-fazer-pt-verb--I8By790\",\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\"]",
+  "hasta": "[\"ref:kaikki:en-hasta-pt-noun-lUgrolt7\"]",
+  "começou": "[\"ref:kaikki:en-começar-pt-verb-pt:to_begin_auxiliary\",\"ref:kaikki:en-começar-pt-verb-pt:to_begin_intransitive\"]",
+  "estiver": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "ambos": "[\"ref:kaikki:en-ambos-pt-pron-~3dyBTq~\"]",
+  "questão": "[\"ref:kaikki:en-questão-pt-noun-pt:matter\",\"ref:kaikki:en-questão-pt-noun-pt:phrase_asking_for_information\"]",
+  "viagem": "[\"ref:kaikki:en-viagem-pt-noun-ePthmFFs\"]",
+  "indo": "[\"ref:kaikki:en-ir-pt-verb-pt:formula_used_in_greetings\",\"ref:kaikki:en-ir-pt-verb-pt:to_move_to_a_destination\"]",
+  "consegues": "[\"ref:kaikki:en-conseguir-pt-verb-sF2nKqgR\"]",
+  "coronel": "[\"ref:kaikki:en-coronel-pt-noun-raHYqHmu\"]",
+  "terá": "[\"ref:kaikki:en-ter-pt-verb-1K4h1hf8\",\"ref:kaikki:en-ter-pt-verb-F0SM4H13\"]",
+  "vontade": "[\"ref:kaikki:en-vontade-pt-noun-gpjbhroA\",\"ref:kaikki:en-vontade-pt-noun-sJ3F01DC\"]",
+  "trata": "[\"ref:kaikki:en-tratar-pt-verb-pt:to_be_about\",\"ref:kaikki:en-tratar-pt-verb-pt:to_cover_a_subject\"]",
+  "casar": "[\"ref:kaikki:en-casar-pt-verb-nshN-OtS\",\"ref:kaikki:en-casar-pt-verb-~~X30MoO\"]",
+  "fizeram": "[\"ref:kaikki:en-fizeram-pt-verb-nze1DO1R\"]",
+  "estúpido": "[\"ref:kaikki:en-estúpido-pt-adj-wtIUpITp\"]",
+  "peço": "[\"ref:kaikki:en-pedir-pt-verb-utT3XMpF\"]",
+  "acabei": "[\"ref:kaikki:en-acabar-pt-verb-pt:to_have_just\"]",
+  "iria": "[\"ref:kaikki:en-ir-pt-verb-pt:forms_the_future_tense\"]",
+  "linha": "[\"ref:kaikki:en-linha-pt-noun-cNFQBR6W\",\"ref:kaikki:en-linha-pt-noun-hOKp2k~o\",\"ref:kaikki:en-linha-pt-noun-ubBf1esV\",\"ref:kaikki:en-linha-pt-noun-yRzT2LeP\"]",
+  "consegui": "[\"ref:kaikki:en-conseguir-pt-verb-nukS~UqV\",\"ref:kaikki:en-conseguir-pt-verb-sF2nKqgR\"]",
+  "jeito": "[\"ref:kaikki:en-jeito-pt-noun-ZVCj5dJz\"]",
+  "mensagem": "[\"ref:kaikki:en-mensagem-pt-noun-zRkiyjL9\"]",
+  "simples": "[\"ref:kaikki:en-simples-pt-adj-p6ObcvKX\"]",
+  "ordem": "[\"ref:kaikki:en-ordem-pt-noun-PG7QQTAr\",\"ref:kaikki:en-ordem-pt-noun-qFb8CvWM\",\"ref:kaikki:en-ordem-pt-noun-vClzk3EK\"]",
+  "acredita": "[\"ref:kaikki:en-acreditar-pt-verb-5QLetnOh\",\"ref:kaikki:en-acreditar-pt-verb-Ao9jd7BC\",\"ref:kaikki:en-acreditar-pt-verb-hU4dJZnT\"]",
+  "escritório": "[\"ref:kaikki:en-escritório-pt-noun-ZRC65Ox-\"]",
+  "estará": "[\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "proteger": "[\"ref:kaikki:en-proteger-pt-verb-9gy7nNLb\"]",
+  "abrir": "[\"ref:kaikki:en-abrir-pt-verb-nJHqs-jy\"]",
+  "tocar": "[\"ref:kaikki:en-tocar-pt-verb-F-a7~vuk\",\"ref:kaikki:en-tocar-pt-verb-nHul5IIn\",\"ref:kaikki:en-tocar-pt-verb-s-7vYrMp\"]",
+  "tio": "[\"ref:kaikki:en-tio-pt-noun-HedOgBX5\"]",
+  "connosco": "[\"ref:kaikki:en-connosco-pt-adv-BDhAv~dp\"]",
+  "maldito": "[\"ref:kaikki:en-maldito-pt-adj-caF5CjEq\"]",
+  "estivesse": "[\"ref:kaikki:en-estar-pt-verb-pt:forms_the_progressive\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_place\",\"ref:kaikki:en-estar-pt-verb-pt:to_be_in_a_transient_state\"]",
+  "acidente": "[\"ref:kaikki:en-acidente-pt-noun-aq~yMqbI\"]",
+  "prometo": "[\"ref:kaikki:en-prometer-pt-verb-Oe9vixzS\"]",
+  "saiu": "[\"ref:kaikki:en-sair-pt-verb-8fGwl1xR\",\"ref:kaikki:en-sair-pt-verb-WpOZBil9\"]",
+  "simplesmente": "[\"ref:kaikki:en-simplesmente-pt-adv-bBRpuNHa\"]",
+  "tinham": "[\"ref:kaikki:en-ter-pt-verb-LxxPmi7t\",\"ref:kaikki:en-ter-pt-verb-pt:forms_the_perfect\"]",
+  "conseguiu": "[\"ref:kaikki:en-conseguir-pt-verb-UZUArsqq\",\"ref:kaikki:en-conseguir-pt-verb-nukS~UqV\",\"ref:kaikki:en-conseguir-pt-verb-sF2nKqgR\"]",
+  "sítio": "[\"ref:kaikki:en-sítio-pt-noun-dHqPOYOV\",\"ref:kaikki:en-sítio-pt-noun-etz2-Wjl\"]",
+  "cena": "[\"ref:kaikki:en-cena-pt-noun-5wJWeOVc\",\"ref:kaikki:en-cena-pt-noun-g5RwpC7j\",\"ref:kaikki:en-cena-pt-noun-ySynhil-\"]",
+  "melhores": "[\"ref:kaikki:en-melhor-pt-adj-gq02ARQU\",\"ref:kaikki:en-melhor-pt-adj-kN-OPUSS\"]",
+  "deves": "[\"ref:kaikki:en-dever-pt-verb-CF0Pqi80\",\"ref:kaikki:en-dever-pt-verb-ZbuvLvQW\",\"ref:kaikki:en-dever-pt-verb-sD0ZaLwc\"]",
+  "tradução": "[\"ref:kaikki:en-tradução-pt-noun-g5zRFpLo\"]",
+  "pensando": "[\"ref:kaikki:en-pensar-pt-verb-84C3adv8\"]",
+  "relação": "[\"ref:kaikki:en-relação-pt-noun-aTE~kYwL\",\"ref:kaikki:en-relação-pt-noun-micSJWTK\"]",
+  "creio": "[\"ref:kaikki:en-crer-pt-verb-HnCONkz-\"]",
+  "assunto": "[\"ref:kaikki:en-assunto-pt-noun-7jXivB-b\",\"ref:kaikki:en-assunto-pt-noun-Fi~H6MNr\"]",
+  "dei": "[\"ref:kaikki:en-dar-pt-verb-4T4IY1-~\",\"ref:kaikki:en-dar-pt-verb-QJVx~IIu\"]",
+  "sozinha": "[\"ref:kaikki:en-sozinho-pt-adj-OFes1Tco\"]",
+  "legal": "[\"ref:kaikki:en-legal-pt-adj-pwjfksnk\",\"ref:kaikki:en-legal-pt-adj-yYWLpPwh\"]",
+  "energia": "[\"ref:kaikki:en-energia-pt-noun-T-oMgxSy\",\"ref:kaikki:en-energia-pt-noun-e90oKfqb\",\"ref:kaikki:en-energia-pt-noun-roDBhJYf\"]",
+  "bocado": "[\"ref:kaikki:en-bocado-pt-noun-8wpvYUWV\",\"ref:kaikki:en-bocado-pt-noun-CoE7uHyw\"]",
+  "levou": "[\"ref:kaikki-senseid:en-levar-pt-verb-pt:to move something to a destination|pt:to accompany\",\"ref:kaikki:en-levar-pt-verb-pt:to_produce_a_result\",\"ref:kaikki:en-levar-pt-verb-pt:to_require_time\"]",
+  "missão": "[\"ref:kaikki:en-missão-pt-noun-n9P2B-Ty\"]",
+  "interessa": "[\"ref:kaikki:en-interessar-pt-verb-OL6pqFqS\",\"ref:kaikki:en-interessar-pt-verb-a9dMzR89\",\"ref:kaikki:en-interessar-pt-verb-eGsK1hL3\"]",
+  "vemos": "[\"ref:kaikki:en-ver-pt-verb-E7ufxT7k\",\"ref:kaikki:en-ver-pt-verb-vJ-lbQxr\"]",
+  "professor": "[\"ref:kaikki:en-professor-pt-noun-IUNjmcce\"]",
+  "preocupe": "[\"ref:kaikki:en-preocupar-pt-verb-YhZ3OYEY\",\"ref:kaikki:en-preocupar-pt-verb-keCBMxdE\"]",
+  "fiquei": "[\"ref:kaikki:en-ficar-pt-verb-pt:to_become\",\"ref:kaikki:en-ficar-pt-verb-pt:to_stay_at\"]",
+  "serviço": "[\"ref:kaikki:en-serviço-pt-noun-KHT~j33i\",\"ref:kaikki:en-serviço-pt-noun-ZJvrVeHK\",\"ref:kaikki:en-serviço-pt-noun-dZSbMCGw\",\"ref:kaikki:en-serviço-pt-noun-gzZkmSmX\",\"ref:kaikki:en-serviço-pt-noun-n-Kd6iUV\"]",
+  "voz": "[\"ref:kaikki:en-voz-pt-noun-PQmb6c6b\"]",
+  "povo": "[\"ref:kaikki:en-povo-pt-noun-yQImgPiI\"]",
+  "morta": "[\"ref:kaikki:en-morto-pt-adj-pt:completely_inactive\",\"ref:kaikki:en-morto-pt-adj-pt:no_longer_living\"]",
+  "dou": "[\"ref:kaikki:en-dar-pt-verb-4T4IY1-~\",\"ref:kaikki:en-dar-pt-verb-QJVx~IIu\",\"ref:kaikki:en-dar-pt-verb-ajqbb-8Q\"]",
+  "ler": "[\"ref:kaikki:en-ler-pt-verb-T6LyeQ6d\"]",
+  "falou": "[\"ref:kaikki:en-falar-pt-verb-RMkSr-yL\",\"ref:kaikki:en-falar-pt-verb-SuqWjjbe\",\"ref:kaikki:en-falar-pt-verb-SuqWjjbe1\",\"ref:kaikki:en-falar-pt-verb-mvMMmN2H\"]",
+  "colocar": "[\"ref:kaikki:en-colocar-pt-verb-nB~WvfYE\",\"ref:kaikki:en-colocar-pt-verb-u4bu0nx1\"]",
+  "pensava": "[\"ref:kaikki:en-pensar-pt-verb-84C3adv8\"]",
+  "come": "[\"ref:kaikki:en-comer-pt-verb-MYr1a51o\",\"ref:kaikki:en-comer-pt-verb-OKdg-HZx\"]",
+  "lembras": "[\"ref:kaikki:en-lembrar-pt-verb-NJUVyA4L\",\"ref:kaikki:en-lembrar-pt-verb-OC7Eux0Z\"]",
+  "explicar": "[\"ref:kaikki:en-explicar-pt-verb-cgQ~Nwbp\"]",
+  "tinhas": "[\"ref:kaikki:en-ter-pt-verb-F0SM4H13\",\"ref:kaikki:en-ter-pt-verb-LxxPmi7t\",\"ref:kaikki:en-ter-pt-verb-pt:forms_the_perfect\"]",
+  "bons": "[\"ref:kaikki:en-bom-pt-adj-RVBfZ8pJ\",\"ref:kaikki:en-bom-pt-adj-aTCJ3w4Q\"]",
+  "fugir": "[\"ref:kaikki:en-fugir-pt-verb-6HVyLScv\"]",
+  "funciona": "[\"ref:kaikki:en-funcionar-pt-verb-b9X~CqGF\"]",
+  "verdadeiro": "[\"ref:kaikki:en-verdadeiro-pt-adj-BY2jqD1y\",\"ref:kaikki:en-verdadeiro-pt-adj-RDyHIAvw\",\"ref:kaikki:en-verdadeiro-pt-adj-maYrEmjl\"]",
+  "tentando": "[\"ref:kaikki:en-tentar-pt-verb-48o2MB~B\"]",
+  "bar": "[\"ref:kaikki:en-bar-pt-noun-Cyxuuvsi\"]",
+  "sendo": "[\"ref:kaikki:en-ser-pt-verb-pt:forms_the_passive_voice\",\"ref:kaikki:en-ser-pt-verb-pt:to_be_an_example_of\",\"ref:kaikki:en-ser-pt-verb-pt:to_have_the_given_quality\"]",
+  "engraçado": "[\"ref:kaikki:en-engraçado-pt-adj-9zNBXBnq\",\"ref:kaikki:en-engraçado-pt-adj-UPDM1gem\"]",
+  "mandar": "[\"ref:kaikki:en-mandar-pt-verb-EESy16pI\",\"ref:kaikki:en-mandar-pt-verb-gJhCNQVD\"]",
+  "dizendo": "[\"ref:kaikki:en-dizer-pt-verb-pt:to_say_that\",\"ref:kaikki:en-dizer-pt-verb-pt:to_speak\",\"ref:kaikki:en-dizer-pt-verb-pt:to_tell_something\"]",
+  "justo": "[\"ref:kaikki:en-justo-pt-adj-wZRdM7v8\"]",
+  "comandante": "[\"ref:kaikki:en-comandante-pt-noun-PKICCoHa\",\"ref:kaikki:en-comandante-pt-noun-QsgQVyiQ\"]",
+  "após": "[\"ref:kaikki:en-após-pt-prep-rjke~~wq\",\"ref:kaikki:en-após-pt-prep-~pHx5lc5\"]",
+  "lutar": "[\"ref:kaikki:en-lutar-pt-verb-BcrYYJeu\",\"ref:kaikki:en-lutar-pt-verb-DA73RtuU\",\"ref:kaikki:en-lutar-pt-verb-~nG0xVmf\"]",
+  "fantástico": "[\"ref:kaikki:en-fantástico-pt-adj--rtgjX8J\"]",
+  "caixa": "[\"ref:kaikki:en-caixa-pt-noun-JvhWfyVp\"]",
+  "fazia": "[\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\",\"ref:kaikki:en-fazer-pt-verb-nqT1sCxG\"]",
+  "conversar": "[\"ref:kaikki:en-conversar-pt-verb-JlLPAzz2\"]",
+  "excelente": "[\"ref:kaikki:en-excelente-pt-adj-bXhazH1M\"]",
+  "companhia": "[\"ref:kaikki:en-companhia-pt-noun-8WjM3ZFU\",\"ref:kaikki:en-companhia-pt-noun-f52r9Zgl\"]",
+  "através": "[\"ref:kaikki:en-através-pt-adv-S-JraSBb\",\"ref:kaikki:en-através-pt-adv-vW4mdCx7\"]",
+  "madre": "[\"ref:kaikki:en-madre-pt-noun-fzNO4VWT\"]",
+  "pensas": "[\"ref:kaikki:en-pensar-pt-verb-84C3adv8\"]",
+  "base": "[\"ref:kaikki:en-base-pt-noun-p6PI9lR2\",\"ref:kaikki:en-base-pt-noun-yuZiFy~U\"]",
+  "gostas": "[\"ref:kaikki:en-gostar-pt-verb-0W5OiILv\"]",
+  "acaba": "[\"ref:kaikki:en-acabar-pt-verb-pt:to_be_over\",\"ref:kaikki:en-acabar-pt-verb-pt:to_have_just\"]",
+  "quantos": "[\"ref:kaikki:en-quantos-pt-det-uNL6d31l\"]",
+  "fome": "[\"ref:kaikki:en-fome-pt-noun--ygR6N~1\"]",
+  "encontrou": "[\"ref:kaikki:en-encontrar-pt-verb-CQZSErss\"]",
+  "quiseres": "[\"ref:kaikki:en-querer-pt-verb-ISYtOdX1\",\"ref:kaikki:en-querer-pt-verb-UQp~~50X\"]",
+  "abre": "[\"ref:kaikki:en-abrir-pt-verb-nJHqs-jy\"]",
+  "loja": "[\"ref:kaikki:en-loja-pt-noun-TfS~Xape\"]",
+  "soube": "[\"ref:kaikki:en-saber-pt-verb-pt:to_have_heard_of\",\"ref:kaikki:en-saber-pt-verb-pt:to_know_a_fact\"]",
+  "dizes": "[\"ref:kaikki:en-dizer-pt-verb-pt:to_say_that\",\"ref:kaikki:en-dizer-pt-verb-pt:to_speak\",\"ref:kaikki:en-dizer-pt-verb-pt:to_tell_something\"]",
+  "entender": "[\"ref:kaikki:en-entender-pt-verb-a9Y10lpu\"]",
+  "carne": "[\"ref:kaikki:en-carne-pt-noun-WdbWFDH8\"]",
+  "deixem": "[\"ref:kaikki:en-deixar-pt-verb-pt:not_to_bother\",\"ref:kaikki:en-deixar-pt-verb-pt:to_give_permission_to\",\"ref:kaikki:en-deixar-pt-verb-pt:to_leave_in_a_state\"]",
+  "falei": "[\"ref:kaikki:en-falar-pt-verb-Pr46rTDL\",\"ref:kaikki:en-falar-pt-verb-RMkSr-yL\",\"ref:kaikki:en-falar-pt-verb-SuqWjjbe\",\"ref:kaikki:en-falar-pt-verb-SuqWjjbe1\",\"ref:kaikki:en-falar-pt-verb-mvMMmN2H\"]",
+  "esperando": "[\"ref:kaikki:en-esperar-pt-verb-pt:to_await\",\"ref:kaikki:en-esperar-pt-verb-pt:to_expect\",\"ref:kaikki:en-esperar-pt-verb-pt:to_hope_that\",\"ref:kaikki:en-esperar-pt-verb-pt:to_wait_for_something_to_happen\"]",
+  "gostar": "[\"ref:kaikki:en-gostar-pt-verb-0W5OiILv\"]",
+  "lembrar": "[\"ref:kaikki:en-lembrar-pt-verb-NJUVyA4L\",\"ref:kaikki:en-lembrar-pt-verb-OC7Eux0Z\"]",
+  "pediu": "[\"ref:kaikki:en-pedir-pt-verb-utT3XMpF\"]",
+  "ouviu": "[\"ref:kaikki:en-ouvir-pt-verb-pt:to_hear\"]",
+  "posição": "[\"ref:kaikki:en-posição-pt-noun-OrWIWJdw\",\"ref:kaikki:en-posição-pt-noun-p~grEQwF\",\"ref:kaikki:en-posição-pt-noun-qjg1Qeef\"]",
+  "vender": "[\"ref:kaikki:en-vender-pt-verb-l6CkWB53\"]",
+  "vive": "[\"ref:kaikki:en-viver-pt-verb-ZOBI-obD\",\"ref:kaikki:en-viver-pt-verb-qm57ePok\"]",
+  "má": "[\"ref:kaikki:en-mau-pt-adj-LwXUtonS\",\"ref:kaikki:en-mau-pt-adj-Trt5fPrE\"]",
+  "tornar": "[\"ref:kaikki:en-tornar-pt-verb-pt:to_become\",\"ref:kaikki:en-tornar-pt-verb-pt:to_cause_to_be\"]",
+  "quente": "[\"ref:kaikki:en-quente-pt-adj-CBrimu-k\"]",
+  "imediatamente": "[\"ref:kaikki:en-imediatamente-pt-adv-2Xjg5IeS\"]",
+  "olhem": "[\"ref:kaikki:en-olhar-pt-verb-p2wgJpFb\"]",
+  "encontramos": "[\"ref:kaikki:en-encontrar-pt-verb-CQZSErss\",\"ref:kaikki:en-encontrar-pt-verb-no9flbpH\"]",
+  "perdi": "[\"ref:kaikki:en-perder-pt-verb-8GBNjFJK\",\"ref:kaikki:en-perder-pt-verb-MdYbU2Ei\"]",
+  "tivemos": "[\"ref:kaikki:en-ter-pt-verb-1K4h1hf8\",\"ref:kaikki:en-ter-pt-verb-F0SM4H13\",\"ref:kaikki:en-ter-pt-verb-LxxPmi7t\"]",
+  "aprender": "[\"ref:kaikki:en-aprender-pt-verb-Mn6eJSGN\",\"ref:kaikki:en-aprender-pt-verb-VKb5796E\"]",
+  "incrível": "[\"ref:kaikki:en-incrível-pt-adj-5eiiwjlp\",\"ref:kaikki:en-incrível-pt-adj-8wUMjwXW\"]",
+  "totalmente": "[\"ref:kaikki:en-totalmente-pt-adv-TQE-HNz1\"]",
+  "conseguimos": "[\"ref:kaikki:en-conseguir-pt-verb-nukS~UqV\",\"ref:kaikki:en-conseguir-pt-verb-sF2nKqgR\"]",
+  "escrever": "[\"ref:kaikki:en-escrever-pt-verb-KpLo6ADF\"]",
+  "fizemos": "[\"ref:kaikki:en-fazer-pt-verb-Ay13EoJ4\"]",
+  "duro": "[\"ref:kaikki:en-duro-pt-adj-BxPXYuHs\",\"ref:kaikki:en-duro-pt-adj-SzvAKw8-\",\"ref:kaikki:en-duro-pt-adv-7VRluSIN\"]",
+  "céu": "[\"ref:kaikki:en-céu-pt-noun-BfUU-ufK\",\"ref:kaikki:en-céu-pt-noun-gY7-RqbC\"]",
+  "precisam": "[\"ref:kaikki:en-precisar-pt-verb-fCXPH8yL\",\"ref:kaikki:en-precisar-pt-verb-fbvlVerk\"]",
+  "entendido": "[\"ref:kaikki:en-entender-pt-verb-a9Y10lpu\"]",
+  "metade": "[\"ref:kaikki:en-metade-pt-noun-5Xr6mqcw\"]",
+  "devíamos": "[\"ref:kaikki:en-dever-pt-verb-CF0Pqi80\"]",
+  "voltou": "[\"ref:kaikki:en-voltar-pt-verb-1igvhEg3\",\"ref:kaikki:en-voltar-pt-verb-TMIElfRt\"]",
+  "cair": "[\"ref:kaikki:en-cair-pt-verb-VvYWug0r\",\"ref:kaikki:en-cair-pt-verb-v1ZWvlGi\"]",
+  "receber": "[\"ref:kaikki:en-receber-pt-verb-4s9If6Gu\",\"ref:kaikki:en-receber-pt-verb-CvottfIY\"]",
+  "cabo": "[\"ref:kaikki:en-cabo-pt-noun-TxO0WU8Y\"]",
+  "volto": "[\"ref:kaikki:en-voltar-pt-verb-1igvhEg3\"]",
+  "área": "[\"ref:kaikki:en-área-pt-noun-LqkJ4pf5\"]"
+ },
+ "sense_menu_content_id": "sha256:9593af0951e5e3a235188d8f69da706285ae997366f2f151e40e5ec813dc2e6a"
+}

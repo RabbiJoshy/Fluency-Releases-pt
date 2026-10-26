@@ -1,0 +1,2038 @@
+{
+  "verified_cards": 10000,
+  "modified_cards_count": 58,
+  "unchanged_cards_count": 9942,
+  "published_examples_updated": 448,
+  "assigner_order": [
+    "DEEPSEEK v25",
+    "GEMINI_REVIEW v1",
+    "JEV v1.14",
+    "NORMAL"
+  ],
+  "assigner_layers": {
+    "wsd_assigner:DEEPSEEK v25": {
+      "selection_version": "layer-selection/v1",
+      "source_type": "snapshot",
+      "source_id": "deepseek-v25-20261014",
+      "artifact_id": "sha256:9d49833811cd7d3579b41b332f13cab1ca5b4ac35a8c3799d06f089d6a1dea3c",
+      "record_count": 13486,
+      "requires": {
+        "sense_menu": "sha256:110cef27dbf9ef488221862c213b8e4b0de7238e1c4a9d62e78c0cbb1442a43c"
+      },
+      "parameters": {
+        "rank": 1,
+        "label": "DEEPSEEK",
+        "version": "v25",
+        "description": "DeepSeek V4.1 Flash (thinking off) re-picked the narrowest 40% of embedding margins on words 1-4,000; kept only picks that won a two-sense head-to-head check. Temporary ideal state while WSD improves; research/cascade/README.md.",
+        "applied_changed": 13486
+      }
+    },
+    "wsd_assigner:GEMINI_REVIEW v1": {
+      "selection_version": "layer-selection/v1",
+      "source_type": "snapshot",
+      "source_id": "authored-review-20261025",
+      "artifact_id": "sha256:37c6130d769737f4f9085b3301d9404f7036023c9e806a8fb38e6638b964b6b9",
+      "record_count": 15,
+      "requires": {
+        "sense_menu": "sha256:110cef27dbf9ef488221862c213b8e4b0de7238e1c4a9d62e78c0cbb1442a43c"
+      },
+      "parameters": {
+        "rank": 2,
+        "label": "GEMINI_REVIEW",
+        "version": "v1",
+        "description": "Explicitly separated Gemini-authored review judgments (AI agent, not human adjudication) for 15 ficar occurrences where authentic Wiktionary source senses apply (e.g. 'ficar sem' -> to_become, 'ficar juntos' -> to_remain_in_a_place).",
+        "applied_changed": 15
+      }
+    },
+    "wsd_assigner:JEV v1.14": {
+      "selection_version": "layer-selection/v1",
+      "source_type": "snapshot",
+      "source_id": "jev-v114-20261024",
+      "artifact_id": "sha256:b2a9111e53a30a266fafcacafff11faa768dcd55515b8fe5e4443619ad662fef",
+      "record_count": 511,
+      "requires": {
+        "sense_menu": "sha256:110cef27dbf9ef488221862c213b8e4b0de7238e1c4a9d62e78c0cbb1442a43c"
+      },
+      "parameters": {
+        "rank": 3,
+        "label": "JEV",
+        "version": "v1.14",
+        "description": "Verified Jev 1.14.0 disambiguation (477 Stage-1 rows + 34 Stage-2 development-repair rows) against authentic source definitions; excludes missing-sense 'ficar com' occurrences, ambiguous ellipsis, and authored overrides.",
+        "applied_changed": 511
+      }
+    }
+  },
+  "modified_cards": [
+    {
+      "card_id": "card_pt_df79bfb14fe1ea6bd12c85d3c797f3b9",
+      "app_id": "df79bfb1",
+      "word": "não",
+      "rank": 5,
+      "changed_published_examples": 7,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_796fb58903ba56c7aa35888f305906b2",
+          "target": "Não é isso que eu vim encontrar aqui.",
+          "english": "That's not what I came here to find.",
+          "old_sense_id": "mwe:não é",
+          "old_gloss": "isn't it; innit; right",
+          "new_sense_id": "en-não-pt-adv-pt:not",
+          "new_gloss": "preceding verbs or adverbs"
+        },
+        {
+          "sentence_id": "sentence_3342ee3544e5561c3fc53b95256c3d26",
+          "target": "Você não dorme muito, não é?",
+          "english": "You don't sleep much, do you?",
+          "old_sense_id": "mwe:não é",
+          "old_gloss": "isn't it; innit; right",
+          "new_sense_id": "en-não-pt-adv-pt:tag_question",
+          "new_gloss": "as a sentence-final parenthesis"
+        },
+        {
+          "sentence_id": "sentence_3a5f2c59218f362d9c4ecdd6279b5d84",
+          "target": "- Mas é o que sente, não é?",
+          "english": "- But that's what you feel, isn't it?",
+          "old_sense_id": "mwe:não é",
+          "old_gloss": "isn't it; innit; right",
+          "new_sense_id": "en-não-pt-adv-pt:tag_question",
+          "new_gloss": "as a sentence-final parenthesis"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_16cab90a40a8e37d23a198e96365365d",
+      "app_id": "16cab90a",
+      "word": "é",
+      "rank": 6,
+      "changed_published_examples": 3,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_27dee394aa7221698e87103e9b39282d",
+          "target": "Você não é obrigado a responder.",
+          "english": "You don't have to answer.",
+          "old_sense_id": "mwe:não é",
+          "old_gloss": "isn't it; innit; right",
+          "new_sense_id": "en-ser-pt-verb-pt:to_be_supposed_to",
+          "new_gloss": "+ para"
+        },
+        {
+          "sentence_id": "sentence_5aae59e3c79afee741ac998f2ea3866e",
+          "target": "Não é rico, mas é feliz.",
+          "english": "He's not rich, but he's happy.",
+          "old_sense_id": "mwe:não é",
+          "old_gloss": "isn't it; innit; right",
+          "new_sense_id": "en-ser-pt-verb-pt:to_have_the_given_quality",
+          "new_gloss": "to be (to have the given quality), especially a quality that is intrinsic or not expected to change, contrasting with estar which denotes a temporary quality"
+        },
+        {
+          "sentence_id": "sentence_1c11c8481aadf2140d9c410578a14875",
+          "target": "Ela não é doente mental.",
+          "english": "She's not mentally ill.",
+          "old_sense_id": "mwe:não é",
+          "old_gloss": "isn't it; innit; right",
+          "new_sense_id": "en-ser-pt-verb-pt:to_have_the_given_quality",
+          "new_gloss": "to be (to have the given quality), especially a quality that is intrinsic or not expected to change, contrasting with estar which denotes a temporary quality"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_038a76659924dfc32828b409b5f83b2d",
+      "app_id": "038a7665",
+      "word": "bem",
+      "rank": 24,
+      "changed_published_examples": 2,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_ad40bb9576b6fba3af79a72fb5f3a6fc",
+          "target": "Quando estou dormindo, está tudo bem.",
+          "english": "When I'm sleeping, everything is fine.",
+          "old_sense_id": "mwe:tudo bem",
+          "old_gloss": "how are you?",
+          "new_sense_id": "en-bem-pt-adv-oQOyTs2C",
+          "new_gloss": "comparable with melhor"
+        },
+        {
+          "sentence_id": "sentence_83df0eac43338818cdcaf02236968a6b",
+          "target": "Está tudo bem com o procedimento do príncipe herdeiro para si?",
+          "english": "So you're comfortable with the Crown Prince proceeding?",
+          "old_sense_id": "mwe:tudo bem",
+          "old_gloss": "how are you?",
+          "new_sense_id": "en-bem-pt-adv-oQOyTs2C",
+          "new_gloss": "comparable with melhor"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_bbe73ec1486d161fb65242af3b657fc1",
+      "app_id": "bbe73ec1",
+      "word": "isso",
+      "rank": 25,
+      "changed_published_examples": 6,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_7cf50cbe7537aea2a05d21f90d182d7e",
+          "target": "Não sei bem o que isso vai ser.",
+          "english": "I'm not sure what that's gonna be, though.",
+          "old_sense_id": "mwe:que isso",
+          "old_gloss": "damn!",
+          "new_sense_id": "en-isso-pt-pron-pt:that",
+          "new_gloss": "demonstrative"
+        },
+        {
+          "sentence_id": "sentence_c0b16c988550e1d6af10efaca584c528",
+          "target": "Nós podemos fazer muito mais que isso.",
+          "english": "We can do a lot more than that.",
+          "old_sense_id": "mwe:que isso",
+          "old_gloss": "damn!",
+          "new_sense_id": "en-isso-pt-pron-pt:that",
+          "new_gloss": "demonstrative"
+        },
+        {
+          "sentence_id": "sentence_508bfa6f6757522bf018ad63bdb89ab4",
+          "target": "Eu não faço ideia do que isso era.",
+          "english": "I have no idea what that was.",
+          "old_sense_id": "mwe:que isso",
+          "old_gloss": "damn!",
+          "new_sense_id": "en-isso-pt-pron-pt:that",
+          "new_gloss": "demonstrative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_f13da3496d3f678a9cd521f6efba1955",
+      "app_id": "f13da349",
+      "word": "isto",
+      "rank": 45,
+      "changed_published_examples": 10,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_a5b1e546e6c7039a256175f45e4cc386",
+          "target": "Isto é o que eu quero fazer.",
+          "english": "This is what I want to do.",
+          "old_sense_id": "mwe:isto é",
+          "old_gloss": "that is; in other words",
+          "new_sense_id": "en-isto-pt-pron-MfoxwOf7",
+          "new_gloss": "this (the thing being discussed; the current situation)"
+        },
+        {
+          "sentence_id": "sentence_8167d0de391ee0e977488d1897412c63",
+          "target": "Acho que isto é uma perda de tempo.",
+          "english": "I think this is a waste of time.",
+          "old_sense_id": "mwe:isto é",
+          "old_gloss": "that is; in other words",
+          "new_sense_id": "en-isto-pt-pron-MfoxwOf7",
+          "new_gloss": "this (the thing being discussed; the current situation)"
+        },
+        {
+          "sentence_id": "sentence_7bb4c36ff7adf67e8a7da3cace919e92",
+          "target": "Isto é só para ti.",
+          "english": "This is only for you.",
+          "old_sense_id": "mwe:isto é",
+          "old_gloss": "that is; in other words",
+          "new_sense_id": "en-isto-pt-pron-4w0vzOW8",
+          "new_gloss": "this (the thing here)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_e7df471a7acf73341e50719a7e71113c",
+      "app_id": "e7df471a",
+      "word": "há",
+      "rank": 60,
+      "changed_published_examples": 3,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_2c83f749c486621d57b09a1c9787070f",
+          "target": "Há quanto tempo você está na cidade?",
+          "english": "How long have you been in town?",
+          "old_sense_id": "mwe:há quanto tempo",
+          "old_gloss": "long time no see",
+          "new_sense_id": "en-haver-pt-verb-pt:it_has_been_since",
+          "new_gloss": "ago"
+        },
+        {
+          "sentence_id": "sentence_f332821245a2d021462a907b0f7a2b0c",
+          "target": "Há quanto tempo esta caixa está aqui?",
+          "english": "How long has this box been here?",
+          "old_sense_id": "mwe:há quanto tempo",
+          "old_gloss": "long time no see",
+          "new_sense_id": "en-haver-pt-verb-pt:it_has_been_since",
+          "new_gloss": "ago"
+        },
+        {
+          "sentence_id": "sentence_042ac7744991aa23d0e97f4eeec396f4",
+          "target": "Há quanto tempo você as conhece?",
+          "english": "How long have you known them?",
+          "old_sense_id": "mwe:há quanto tempo",
+          "old_gloss": "long time no see",
+          "new_sense_id": "en-haver-pt-verb-pt:it_has_been_since",
+          "new_gloss": "ago"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_17ae74c264953052d17da4a089001e1c",
+      "app_id": "17ae74c2",
+      "word": "coisa",
+      "rank": 74,
+      "changed_published_examples": 5,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_8b219a204838854bf36a90a7fc3a41b5",
+          "target": "Sei que se passa qualquer coisa.",
+          "english": "I know there's something going on.",
+          "old_sense_id": "mwe:qualquer coisa",
+          "old_gloss": "in any event",
+          "new_sense_id": "en-coisa-pt-noun-pt:thing",
+          "new_gloss": "thing (a physical object, entity, or situation)"
+        },
+        {
+          "sentence_id": "sentence_fa5f0ddcb20d318ed8c4f006165fd708",
+          "target": "Estou disposta a fazer qualquer coisa que você me pedir.",
+          "english": "I'm willing to do anything you ask me.",
+          "old_sense_id": "mwe:qualquer coisa",
+          "old_gloss": "in any event",
+          "new_sense_id": "en-coisa-pt-noun-pt:thing",
+          "new_gloss": "thing (a physical object, entity, or situation)"
+        },
+        {
+          "sentence_id": "sentence_8a24c4b8030e45c8b86ea2c14a95dc3f",
+          "target": "Eu valia qualquer coisa para alguém.",
+          "english": "I was still worth something to someone.",
+          "old_sense_id": "mwe:qualquer coisa",
+          "old_gloss": "in any event",
+          "new_sense_id": "en-coisa-pt-noun-pt:thing",
+          "new_gloss": "thing (a physical object, entity, or situation)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_78393b50a17e5c0abfd41322d41a5cdb",
+      "app_id": "78393b50",
+      "word": "mesmo",
+      "rank": 87,
+      "changed_published_examples": 6,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_f21ddc68ecf6199a032e8c78a9cf8a40",
+          "target": "O belo nem sempre é o mesmo que o bom.",
+          "english": "The beautiful is not always the same as the good.",
+          "old_sense_id": "mwe:mesmo que",
+          "old_gloss": "even if; irrespective of",
+          "new_sense_id": "en-mesmo-pt-adj-pt:not_different",
+          "new_gloss": "same (not different; not another)"
+        },
+        {
+          "sentence_id": "sentence_544e2e2aa508c294592401de306d136a",
+          "target": "Eu tenho mesmo que ir agora.",
+          "english": "I really have to go now.",
+          "old_sense_id": "mwe:mesmo que",
+          "old_gloss": "even if; irrespective of",
+          "new_sense_id": "en-mesmo-pt-adv-pt:in_fact",
+          "new_gloss": "really; actually; in fact"
+        },
+        {
+          "sentence_id": "sentence_9ebfde48fa67cf47ca78f976a85e7f12",
+          "target": "Eu penso o mesmo que eles.",
+          "english": "I think the same as they do.",
+          "old_sense_id": "mwe:mesmo que",
+          "old_gloss": "even if; irrespective of",
+          "new_sense_id": "en-mesmo-pt-noun-pt:the_same",
+          "new_gloss": "the same"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_8cd52e746cceea086e9d2530c8e456b9",
+      "app_id": "8cd52e74",
+      "word": "vez",
+      "rank": 93,
+      "changed_published_examples": 1,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_dc4faac31d31a586e0666b65828ac97a",
+          "target": "Cada vez que te vejo, penso no teu pai.",
+          "english": "Every time I see you, I think of your father.",
+          "old_sense_id": "mwe:cada vez",
+          "old_gloss": "increasingly; more and more",
+          "new_sense_id": "en-vez-pt-noun-kxM-vYnn",
+          "new_gloss": "time; occasion"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_807681ad3034376931c1aa1b13c6bcee",
+      "app_id": "807681ad",
+      "word": "tempo",
+      "rank": 104,
+      "changed_published_examples": 3,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_803c5600fade5ef679c601fb640d2adb",
+          "target": "Há quanto tempo estás a fazer isso?",
+          "english": "Jesus Christ, man. How long have you been sitting on all this?",
+          "old_sense_id": "mwe:há quanto tempo",
+          "old_gloss": "long time no see",
+          "new_sense_id": "en-tempo-pt-noun-pt:available_time",
+          "new_gloss": "uncountable"
+        },
+        {
+          "sentence_id": "sentence_1b9c56f23c19f8d5e0440704e687d46d",
+          "target": "Há quanto tempo você me conhece?",
+          "english": "How long have you known me?",
+          "old_sense_id": "mwe:há quanto tempo",
+          "old_gloss": "long time no see",
+          "new_sense_id": "en-tempo-pt-noun-pt:available_time",
+          "new_gloss": "uncountable"
+        },
+        {
+          "sentence_id": "sentence_a9329acfd3f2f5a3a5790255c432e5c0",
+          "target": "Sabes há quanto tempo espero aqui nesta merda de caixa?",
+          "english": "You know how long I've been waiting up in this motherfucker?",
+          "old_sense_id": "mwe:há quanto tempo",
+          "old_gloss": "long time no see",
+          "new_sense_id": "en-tempo-pt-noun-pt:available_time",
+          "new_gloss": "uncountable"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_36b47ad7ef866d6050f7132fdea6c70e",
+      "app_id": "36b47ad7",
+      "word": "vida",
+      "rank": 111,
+      "changed_published_examples": 3,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_75908724b2294e22cbf03c03e2984802",
+          "target": "Que é a vida sem o amor?",
+          "english": "What is life without love?",
+          "old_sense_id": "mwe:é a vida",
+          "old_gloss": "that's life, c'est la vie",
+          "new_sense_id": "en-vida-pt-noun-Se2DR9HI",
+          "new_gloss": "state of being alive"
+        },
+        {
+          "sentence_id": "sentence_6d1a29b80156dcec5e6aa73046bceaa4",
+          "target": "O que é a vida?",
+          "english": "What is life?",
+          "old_sense_id": "mwe:é a vida",
+          "old_gloss": "that's life, c'est la vie",
+          "new_sense_id": "en-vida-pt-noun-Se2DR9HI",
+          "new_gloss": "state of being alive"
+        },
+        {
+          "sentence_id": "sentence_666b688d04c4242c34d2cbd38347f05c",
+          "target": "A biologia inclui muitas ciências da vida.",
+          "english": "Biology includes many life sciences.",
+          "old_sense_id": "mwe:da vida",
+          "old_gloss": "extremely",
+          "new_sense_id": "en-vida-pt-noun-4gGn4lZc",
+          "new_gloss": "ecology"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_0ca972fefc46ea8eb6980b1ae44b6dff",
+      "app_id": "0ca972fe",
+      "word": "deus",
+      "rank": 120,
+      "changed_published_examples": 1,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_4c4a080e45a1998358d1dda7bd408936",
+          "target": "Meu deus é o maior!",
+          "english": "My god is the greatest!",
+          "old_sense_id": "mwe:meu deus",
+          "old_gloss": "oh my God!",
+          "new_sense_id": "en-Deus-pt-name-D4f-ay8X",
+          "new_gloss": "God (the deity of monotheistic religions)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_014ff0cca2a8370d14441aa513e09a7e",
+      "app_id": "014ff0cc",
+      "word": "dia",
+      "rank": 129,
+      "changed_published_examples": 4,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_a2305e1b9b0684c52e14c1d067378357",
+          "target": "Não posso pintar esta casa em um dia.",
+          "english": "I cannot paint this house in one day.",
+          "old_sense_id": "mwe:um dia",
+          "old_gloss": "someday / once",
+          "new_sense_id": "en-dia-pt-noun-pt:24_hours",
+          "new_gloss": "period of 24 hours"
+        },
+        {
+          "sentence_id": "sentence_cd6034abdf26500692b2ce24157b138d",
+          "target": "Estou aqui há um dia e já causei problemas.",
+          "english": "I haven't been here one day, I'm already causing problems.",
+          "old_sense_id": "mwe:um dia",
+          "old_gloss": "someday / once",
+          "new_sense_id": "en-dia-pt-noun-pt:24_hours",
+          "new_gloss": "period of 24 hours"
+        },
+        {
+          "sentence_id": "sentence_b3b0f2dac2d9794658c49d0efea944ed",
+          "target": "Ela veio me ver um dia desses.",
+          "english": "She came to see me the other day.",
+          "old_sense_id": "mwe:um dia",
+          "old_gloss": "someday / once",
+          "new_sense_id": "en-dia-pt-noun-oKcrTjNF",
+          "new_gloss": "an unspecified period of time either in the past or in the future"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_fde506373a9bfa577cec341606825371",
+      "app_id": "fde50637",
+      "word": "ficar",
+      "rank": 157,
+      "changed_published_examples": 7,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_f8fdf7b9af266cd09719ec12a6d2716b",
+          "target": "Quanto tempo achas que vai ficar a dormir?",
+          "english": "How long do you think he'll stay asleep?",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_a07a781be752eb4caee5642562ccf693",
+          "target": "Você é livre para ir ou ficar.",
+          "english": "You are free to go or stay.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_ce442e06b95f8e9185ed8f8745da9558",
+          "target": "Eu gostaria de ficar se você não se importar.",
+          "english": "I'd like to stay if you don't mind.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_983b2a7cbf2e1c8985cb34deb93d441e",
+      "app_id": "983b2a7c",
+      "word": "qualquer",
+      "rank": 180,
+      "changed_published_examples": 11,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_973d8f1202a470a9638e5de1d4ebdca3",
+          "target": "É preciso ter cuidado ao fazer qualquer coisa.",
+          "english": "One must be careful in doing anything.",
+          "old_sense_id": "mwe:qualquer coisa",
+          "old_gloss": "in any event",
+          "new_sense_id": "en-qualquer-pt-det-pt:any",
+          "new_gloss": "any; whatever (no matter what kind, which or who)"
+        },
+        {
+          "sentence_id": "sentence_094e5f7a88ed24ee6daa185fa1f71fb8",
+          "target": "Eu posso falar sobre qualquer coisa com a minha melhor amiga.",
+          "english": "I can talk about anything with my best friend.",
+          "old_sense_id": "mwe:qualquer coisa",
+          "old_gloss": "in any event",
+          "new_sense_id": "en-qualquer-pt-det-pt:any",
+          "new_gloss": "any; whatever (no matter what kind, which or who)"
+        },
+        {
+          "sentence_id": "sentence_1741d252986e4dc9788d778efdd53b19",
+          "target": "Eu amo minha família mais do que qualquer coisa.",
+          "english": "I love my family more than anything.",
+          "old_sense_id": "mwe:qualquer coisa",
+          "old_gloss": "in any event",
+          "new_sense_id": "en-qualquer-pt-det-pt:any",
+          "new_gloss": "any; whatever (no matter what kind, which or who)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_810a427f011edd360ba2e93b87fcd2a7",
+      "app_id": "810a427f",
+      "word": "qual",
+      "rank": 185,
+      "changed_published_examples": 29,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_e41b038ddec32db1d17e73b8c08338a1",
+          "target": "Vamos lá ver qual é o lugar dele.",
+          "english": "Let's see where he's sitting.",
+          "old_sense_id": "mwe:qual é",
+          "old_gloss": "no way",
+          "new_sense_id": "en-qual-pt-pron-Up6A3Quf",
+          "new_gloss": "which (what one)"
+        },
+        {
+          "sentence_id": "sentence_43d10d449f9d66d8ed735a66d8022821",
+          "target": "Você não quer saber qual é o problema?",
+          "english": "Don't you want to know what the problem is?",
+          "old_sense_id": "mwe:qual é",
+          "old_gloss": "no way",
+          "new_sense_id": "en-qual-pt-pron-Up6A3Quf",
+          "new_gloss": "which (what one)"
+        },
+        {
+          "sentence_id": "sentence_11861fc99fba4b8fb0e396cd9e1f8326",
+          "target": "Qual é a coisa mais bonita no mundo?",
+          "english": "What is the most beautiful thing in the world?",
+          "old_sense_id": "mwe:qual é",
+          "old_gloss": "no way",
+          "new_sense_id": "en-qual-pt-pron-Up6A3Quf",
+          "new_gloss": "which (what one)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_465f480b3ea5cd80a65a34c8070da948",
+      "app_id": "465f480b",
+      "word": "quanto",
+      "rank": 212,
+      "changed_published_examples": 6,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_5a919a92c18877d57b67260b5c94c92f",
+          "target": "Há quanto tempo, é que ele trabalha aqui?",
+          "english": "How long has he been working here?",
+          "old_sense_id": "mwe:há quanto tempo",
+          "old_gloss": "long time no see",
+          "new_sense_id": "en-quanto-pt-det-MSn9wpWu",
+          "new_gloss": "interrogative, relative"
+        },
+        {
+          "sentence_id": "sentence_21689ab89f9da0423bef30b5461c69aa",
+          "target": "Há quanto tempo você trabalha para nós?",
+          "english": "How long have you worked for us?",
+          "old_sense_id": "mwe:há quanto tempo",
+          "old_gloss": "long time no see",
+          "new_sense_id": "en-quanto-pt-adv-FigUndpt",
+          "new_gloss": "interrogative, relative"
+        },
+        {
+          "sentence_id": "sentence_1c887e728cc0ba280f845bac5eca5c98",
+          "target": "Há quanto tempo sei, o quê?",
+          "english": "How long have I known what?",
+          "old_sense_id": "mwe:há quanto tempo",
+          "old_gloss": "long time no see",
+          "new_sense_id": "en-quanto-pt-det-MSn9wpWu",
+          "new_gloss": "interrogative, relative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_9d8a12623736326a5ee64b94e86368cc",
+      "app_id": "9d8a1262",
+      "word": "hora",
+      "rank": 229,
+      "changed_published_examples": 19,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_33b4b1ccb86d43529608bd32b4f5cc5d",
+          "target": "Está bem, e quanto é para mais uma hora?",
+          "english": "All right, how much for another hour?",
+          "old_sense_id": "mwe:uma hora",
+          "old_gloss": "at an undetermined time, but inevitably",
+          "new_sense_id": "en-hora-pt-noun-pt:hour",
+          "new_gloss": "hour (period of sixty minutes)"
+        },
+        {
+          "sentence_id": "sentence_416e016506fa86a1591c55156c29f563",
+          "target": "Acabei o trabalho em menos de uma hora.",
+          "english": "I finished the work in less than an hour.",
+          "old_sense_id": "mwe:uma hora",
+          "old_gloss": "at an undetermined time, but inevitably",
+          "new_sense_id": "en-hora-pt-noun-pt:hour",
+          "new_gloss": "hour (period of sixty minutes)"
+        },
+        {
+          "sentence_id": "sentence_f77f24620526db8c8d2d733ce4b5340d",
+          "target": "Vai te ajudar muito na hora de falar Inglês.",
+          "english": "It will help you a lot when you speaking English.",
+          "old_sense_id": "mwe:na hora",
+          "old_gloss": "in the right moment",
+          "new_sense_id": "en-hora-pt-noun-pt:time",
+          "new_gloss": "time (point in time)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_62b19bb46bce8a502887f0d4fd8997d4",
+      "app_id": "62b19bb4",
+      "word": "cabeça",
+      "rank": 302,
+      "changed_published_examples": 8,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_12f5793f44ce284f17d0442e6204c5d2",
+          "target": "Parece que você sempre está com dor de cabeça.",
+          "english": "You always seem to have a headache.",
+          "old_sense_id": "mwe:de cabeça",
+          "old_gloss": "from memory",
+          "new_sense_id": "en-cabeça-pt-noun-xMcPJ0x2",
+          "new_gloss": "anatomy"
+        },
+        {
+          "sentence_id": "sentence_a15adbe93489ebef8544a33080907a3e",
+          "target": "Hoje estou com uma forte dor de cabeça.",
+          "english": "I have a bad headache today.",
+          "old_sense_id": "mwe:de cabeça",
+          "old_gloss": "from memory",
+          "new_sense_id": "en-cabeça-pt-noun-xMcPJ0x2",
+          "new_gloss": "anatomy"
+        },
+        {
+          "sentence_id": "sentence_a168a5dc0d00f48f380fb50d81c5fff1",
+          "target": "À procura de alguma coisa para tratar uma dor de cabeça.",
+          "english": "Looking for something to treat a headache.",
+          "old_sense_id": "mwe:de cabeça",
+          "old_gloss": "from memory",
+          "new_sense_id": "en-cabeça-pt-noun-xMcPJ0x2",
+          "new_gloss": "anatomy"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_ed653c91a2d519c40d147bf1c4452dd4",
+      "app_id": "ed653c91",
+      "word": "cada",
+      "rank": 308,
+      "changed_published_examples": 2,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_21c681f880b55450daa270642b5b2ab2",
+          "target": "Tens de os sacudir, um de cada vez.",
+          "english": "You gotta shake 'em out, one at a time.",
+          "old_sense_id": "mwe:cada vez",
+          "old_gloss": "increasingly; more and more",
+          "new_sense_id": "en-cada-pt-pron-S6dgBYIB",
+          "new_gloss": "each, every (qualifying a singular noun, indicating all examples of the thing so named seen as individual or separate items)"
+        },
+        {
+          "sentence_id": "sentence_7fc009079c26ad116705f462f6bba8ab",
+          "target": "Assim podia-se matar uns oito de cada vez.",
+          "english": "You could kill, like, eight at a time that way.",
+          "old_sense_id": "mwe:cada vez",
+          "old_gloss": "increasingly; more and more",
+          "new_sense_id": "en-cada-pt-pron-S6dgBYIB",
+          "new_gloss": "each, every (qualifying a singular noun, indicating all examples of the thing so named seen as individual or separate items)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_daedb354fc62418e17694ab334421889",
+      "app_id": "daedb354",
+      "word": "fica",
+      "rank": 316,
+      "changed_published_examples": 2,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_ed5907b9e0456e7c7cd38712c2a00af8",
+          "target": "A saída fica à esquerda.",
+          "english": "The exit is on the left.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_be_somewhere",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_c973f7115623f797172cd2c013495ca7",
+          "target": "- Sim. Fica aqui com ele.",
+          "english": "Yes, stay here with him.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_a21b82553905e8b0fba64c4d8de00609",
+      "app_id": "a21b8255",
+      "word": "fosse",
+      "rank": 327,
+      "changed_published_examples": 6,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_1efe73e13b9778968fe258bd50e21296",
+          "target": "Você não é bem a pessoa que eu pensei que fosse.",
+          "english": "You're just not the person I thought you were.",
+          "old_sense_id": "mwe:que fosse",
+          "old_gloss": "the past form of que seja: modifies a quantity in past negative or past potential contexts  or counterfactuals to express that the quantity is small but would have been sufficient: even; only",
+          "new_sense_id": "en-ser-pt-verb-pt:to_be_an_example_of",
+          "new_gloss": "to be (to be an example or type of, or the same as)"
+        },
+        {
+          "sentence_id": "sentence_609c1e5e44dba7c26dc15fba24f34346",
+          "target": "Eu queria que fosse assim tão fácil.",
+          "english": "I wish it was that easy.",
+          "old_sense_id": "mwe:que fosse",
+          "old_gloss": "the past form of que seja: modifies a quantity in past negative or past potential contexts  or counterfactuals to express that the quantity is small but would have been sufficient: even; only",
+          "new_sense_id": "en-ser-pt-verb-pt:to_have_the_given_quality",
+          "new_gloss": "to be (to have the given quality), especially a quality that is intrinsic or not expected to change, contrasting with estar which denotes a temporary quality"
+        },
+        {
+          "sentence_id": "sentence_b5b0312ebeef03b461c06b6c45be55e7",
+          "target": "Não sei, mas o que quer que fosse matou-o.",
+          "english": "I don't know, but whatever it was, it got him killed.",
+          "old_sense_id": "mwe:que fosse",
+          "old_gloss": "the past form of que seja: modifies a quantity in past negative or past potential contexts  or counterfactuals to express that the quantity is small but would have been sufficient: even; only",
+          "new_sense_id": "en-ser-pt-verb-pt:to_have_the_given_quality",
+          "new_gloss": "to be (to have the given quality), especially a quality that is intrinsic or not expected to change, contrasting with estar which denotes a temporary quality"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_50521102a4e54e2d1b7c4fb908bdf253",
+      "app_id": "50521102",
+      "word": "fala",
+      "rank": 422,
+      "changed_published_examples": 4,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_8e9a073bd0ac120b797f8a4b3adb0259",
+          "target": "Há alguém aqui em nosso meio que fala Inglês fluente?",
+          "english": "Is there anyone among us here who speaks English fluently?",
+          "old_sense_id": "mwe:fala inglês",
+          "old_gloss": "do you speak English?",
+          "new_sense_id": "en-falar-pt-verb-WUb6tT1x",
+          "new_gloss": "to speak (to be able to communicate in a language)"
+        },
+        {
+          "sentence_id": "sentence_889fd1723e276a4e6a752d810a7b00fa",
+          "target": "Com licença, você fala inglês?",
+          "english": "Pardon me, do you speak English?",
+          "old_sense_id": "mwe:fala inglês",
+          "old_gloss": "do you speak English?",
+          "new_sense_id": "en-falar-pt-verb-WUb6tT1x",
+          "new_gloss": "to speak (to be able to communicate in a language)"
+        },
+        {
+          "sentence_id": "sentence_6c58f0d9a340276c27214c7784ac4f92",
+          "target": "Esta menina fala inglês e alemão.",
+          "english": "This girl speaks English and German.",
+          "old_sense_id": "mwe:fala inglês",
+          "old_gloss": "do you speak English?",
+          "new_sense_id": "en-falar-pt-verb-WUb6tT1x",
+          "new_gloss": "to speak (to be able to communicate in a language)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_d15d67d138fffe2e2c95fcdc37c4a831",
+      "app_id": "d15d67d1",
+      "word": "fique",
+      "rank": 560,
+      "changed_published_examples": 8,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_ba43e8f4e407e77fabf294f31ad6f357",
+          "target": "Quanto tempo você espera que eu fique?",
+          "english": "How long do you expect me to stay?",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_14f4b142364b00cc25e92183a3696973",
+          "target": "Não espere que eu fique feliz com isso.",
+          "english": "Don't expect me to be happy about this.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_e461e696c2b1e9b322bfd2cde7cbcc02",
+          "target": "E fique fora do meu caminho.",
+          "english": "And stay out of my way.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_522bcb0b5a686489230930454392844a",
+      "app_id": "522bcb0b",
+      "word": "ficou",
+      "rank": 569,
+      "changed_published_examples": 7,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_26933624a8909510ca3c0ef4c038c1a9",
+          "target": "O importante é que ela ficou do meu lado.",
+          "english": "What's important is that she stayed at my side.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_d27f133f1725ecc0d184f295e44c4623",
+          "target": "Ela ficou para trás com alguns amigos.",
+          "english": "She stayed behind with some friends.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_83cfa52fa396a092fa19e72526e7f87a",
+          "target": "Ele ficou lá todo o tempo.",
+          "english": "He stayed there all the time.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_12ae2c9c60006bffcfa80180749292c2",
+      "app_id": "12ae2c9c",
+      "word": "fico",
+      "rank": 632,
+      "changed_published_examples": 2,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_313861e369b02a65ec51757eca2d8843",
+          "target": "Fico feliz que você ainda esteja aqui.",
+          "english": "I'm happy you're still here.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_a742bb10a23dc502f0a3806e59469914",
+          "target": "Eu nunca fico com raiva sem razão.",
+          "english": "I'm never angry without reason.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_59792ceec4d6045425ed35352a247526",
+      "app_id": "59792cee",
+      "word": "último",
+      "rank": 634,
+      "changed_published_examples": 9,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_043051242efad602a714fbbcce38cdf1",
+          "target": "Nós sabemos o que aconteceu no último fim de semana.",
+          "english": "We know what happened last weekend.",
+          "old_sense_id": "mwe:no último",
+          "old_gloss": "really; super",
+          "new_sense_id": "en-último-pt-adj-WSeD0BeQ",
+          "new_gloss": "latest; most recent; last so far"
+        },
+        {
+          "sentence_id": "sentence_c8d6f1cc5a2400a3c17dd3a55b944028",
+          "target": "Fui para a praia no último final de semana.",
+          "english": "I went to the beach last weekend.",
+          "old_sense_id": "mwe:no último",
+          "old_gloss": "really; super",
+          "new_sense_id": "en-último-pt-adj-WSeD0BeQ",
+          "new_gloss": "latest; most recent; last so far"
+        },
+        {
+          "sentence_id": "sentence_5555c095e5cf4aaea1ddaf95c4f8f3ad",
+          "target": "Ele foi à loja no último minuto, antes de fechar.",
+          "english": "He went to the store at the last minute, just before it closed.",
+          "old_sense_id": "mwe:no último",
+          "old_gloss": "really; super",
+          "new_sense_id": "en-último-pt-adj-Lt-Sut2Y",
+          "new_gloss": "final; last"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_b5b6c8e1f9a774046d990b811fa2fe06",
+      "app_id": "b5b6c8e1",
+      "word": "fiquei",
+      "rank": 854,
+      "changed_published_examples": 1,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_d490e5a057d45a941bd793175b076fa9",
+          "target": "Fiquei aqui a noite toda.",
+          "english": "- I've been here all night.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_44360e80373e621c7230d5aa53f2780d",
+      "app_id": "44360e80",
+      "word": "ficam",
+      "rank": 1336,
+      "changed_published_examples": 2,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_a1e14b18704c58b7041e6725ae3cfe90",
+          "target": "Dois homens ficam aqui; os outros sigam-me!",
+          "english": "Two men stay here; the rest follow me!",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_0b0f99bbecd4c2f7e461de8f28ed0352",
+          "target": "Pessoas que não estão com pressa ficam do lado direito da escada rolante.",
+          "english": "People who are not in a hurry stand on the right side of the escalator.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_be_somewhere",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_e53f69e37575fd751eef0cbc370613f2",
+      "app_id": "e53f69e3",
+      "word": "ficará",
+      "rank": 1408,
+      "changed_published_examples": 4,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_d33bcbf553712a19fa209e947f76b780",
+          "target": "Você não ficará feliz, não importa o que eu faça.",
+          "english": "You won't be happy no matter what I do.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_45acc5d3dd6d349d4f93eb7cdbb194fc",
+          "target": "Se veio aqui à procura de respostas sobre os filmes, ficará decepcionada.",
+          "english": "If you came here looking for answers about the films, you'll be disappointed.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_6ea406bf1c453ef136ecfba03e920033",
+          "target": "Quem gasta rápido demais nunca ficará rico.",
+          "english": "Those who spend too fast never grow rich.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_f0a30866020f95077a6480f94caf64b5",
+      "app_id": "f0a30866",
+      "word": "fiquem",
+      "rank": 1409,
+      "changed_published_examples": 17,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_0054fa46f9c70d66ad4ec83c83a5f119",
+          "target": "Está bem, preciso que vocês os três fiquem aqui.",
+          "english": "Okay, I need the three of you to stay here.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_9dabf3b76a19d26d8143a615b5ce5608",
+          "target": "Eu não gosto que as pessoas fiquem me olhando.",
+          "english": "I don't like people looking at me.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:forms_the_habitual",
+          "new_gloss": "auxiliary"
+        },
+        {
+          "sentence_id": "sentence_12d4eef1eb29a0c2700dd568a774dfb4",
+          "target": "Eu não quero que vocês fiquem aqui me vendo sofrer.",
+          "english": "I don't want you to stay here and watch me suffer.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_7408473f9de9cced0c2ca8824ed0fc60",
+      "app_id": "7408473f",
+      "word": "ficas",
+      "rank": 1455,
+      "changed_published_examples": 4,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_1a4fe209ad9cde5a41979cf56f7ce2fe",
+          "target": "Porque não ficas calado e não aceitas um sim como resposta?",
+          "english": "Why don't you just keep quiet and take yes for an answer?",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_787de3936d2dae10f5ba2e8634234d8b",
+          "target": "Não gosto quando ficas sem falar comigo.",
+          "english": "I don't like it when you don't talk to me for a while.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_e2bb731bddee92d0317c83786700bd0e",
+          "target": "Depois disso, ficas por tua conta.",
+          "english": "After that, you're on your own.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_a840f822e56462955aeaacafcb29446d",
+      "app_id": "a840f822",
+      "word": "inglês",
+      "rank": 1462,
+      "changed_published_examples": 5,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_8f76c9f1cb9962bf040d317eff4760cd",
+          "target": "Todo o mundo sabe que ela fala inglês bem.",
+          "english": "Everybody knows she can speak English well.",
+          "old_sense_id": "mwe:fala inglês",
+          "old_gloss": "do you speak English?",
+          "new_sense_id": "en-inglês-pt-noun-NPjjvvz~",
+          "new_gloss": "English language"
+        },
+        {
+          "sentence_id": "sentence_5fc1669fb424d36293f497b92d82b150",
+          "target": "Um fala Inglês, e os outros falam Japonês.",
+          "english": "One speaks English, and the other speaks Japanese.",
+          "old_sense_id": "mwe:fala inglês",
+          "old_gloss": "do you speak English?",
+          "new_sense_id": "en-inglês-pt-noun-NPjjvvz~",
+          "new_gloss": "English language"
+        },
+        {
+          "sentence_id": "sentence_07c9c2b4234dcf9257a81078b76bf7a5",
+          "target": "O seu cliente agora não fala inglês?",
+          "english": "Your client doesn't speak English now?",
+          "old_sense_id": "mwe:fala inglês",
+          "old_gloss": "do you speak English?",
+          "new_sense_id": "en-inglês-pt-noun-NPjjvvz~",
+          "new_gloss": "English language"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_3792217454016d15749d2e94acbed679",
+      "app_id": "37922174",
+      "word": "máximo",
+      "rank": 1516,
+      "changed_published_examples": 13,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_0a1e65371a19cdcd8e6e67782e1e06c5",
+          "target": "Irei ver o máximo deste mundo que puder antes de partir.",
+          "english": "I will see as much of this world as I can before I leave it.",
+          "old_sense_id": "mwe:o máximo",
+          "old_gloss": "great",
+          "new_sense_id": "en-máximo-pt-noun-HaGf9rND",
+          "new_gloss": "maximum (highest limit)"
+        },
+        {
+          "sentence_id": "sentence_be8d1d436b97b238c498be695f3358b7",
+          "target": "Quero conversar com o máximo de pessoas possível.",
+          "english": "I want to talk to as many people as possible.",
+          "old_sense_id": "mwe:o máximo",
+          "old_gloss": "great",
+          "new_sense_id": "en-máximo-pt-noun-HaGf9rND",
+          "new_gloss": "maximum (highest limit)"
+        },
+        {
+          "sentence_id": "sentence_8f92b3fa468caad207fe4b95201a2f92",
+          "target": "Ele está tentando estudar o máximo que puder.",
+          "english": "He is trying to study as hard as he can.",
+          "old_sense_id": "mwe:o máximo",
+          "old_gloss": "great",
+          "new_sense_id": "en-máximo-pt-noun-HaGf9rND",
+          "new_gloss": "maximum (highest limit)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_3ebdc24abce8ddcf8f5bcdf7fa5e66a7",
+      "app_id": "3ebdc24a",
+      "word": "distância",
+      "rank": 1562,
+      "changed_published_examples": 8,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_9a73ee8a5e444f2686563afad4ae9d6c",
+          "target": "Qual é a distância entre aqui e ali?",
+          "english": "What is the distance between here and there?",
+          "old_sense_id": "mwe:a distância",
+          "old_gloss": "at a distance; from a distance; aloof",
+          "new_sense_id": "en-distância-pt-noun-1SLGtbJl",
+          "new_gloss": "distance (space between two points, two places or two objects)"
+        },
+        {
+          "sentence_id": "sentence_153d3d20ae4df767e2185a0cf4dac68b",
+          "target": "Qual é a distância que você costuma correr?",
+          "english": "How far do you usually run?",
+          "old_sense_id": "mwe:a distância",
+          "old_gloss": "at a distance; from a distance; aloof",
+          "new_sense_id": "en-distância-pt-noun-1SLGtbJl",
+          "new_gloss": "distance (space between two points, two places or two objects)"
+        },
+        {
+          "sentence_id": "sentence_f63728375e04543c33af71223ef9e661",
+          "target": "Você sabe a distância da estação à sede do município?",
+          "english": "Do you know how far it is from the station to city hall?",
+          "old_sense_id": "mwe:a distância",
+          "old_gloss": "at a distance; from a distance; aloof",
+          "new_sense_id": "en-distância-pt-noun-1SLGtbJl",
+          "new_gloss": "distance (space between two points, two places or two objects)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_9ff6a1e8302f2206df5fc51a922baee4",
+      "app_id": "9ff6a1e8",
+      "word": "beijo",
+      "rank": 1699,
+      "changed_published_examples": 18,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_a052112cd93ebbfec2697ead05418211",
+          "target": "Ele ainda não tinha tido a coragem de dar um beijo.",
+          "english": "He hadn't yet found the courage to kiss.",
+          "old_sense_id": "mwe:um beijo",
+          "old_gloss": "see ya!",
+          "new_sense_id": "en-beijo-pt-noun-pHq7ohBc",
+          "new_gloss": "kiss (touch with the lips)"
+        },
+        {
+          "sentence_id": "sentence_eea3216fb103eb403c708959f66c6ea3",
+          "target": "É verdade que ela queria me dar um beijo?",
+          "english": "Did she really wanted to kiss me?",
+          "old_sense_id": "mwe:um beijo",
+          "old_gloss": "see ya!",
+          "new_sense_id": "en-beijo-pt-noun-pHq7ohBc",
+          "new_gloss": "kiss (touch with the lips)"
+        },
+        {
+          "sentence_id": "sentence_ad9ee3f6bd4cb820976d09459b240213",
+          "target": "Vocês não vão me dar um beijo de despedida?",
+          "english": "Aren't you going to kiss me goodbye?",
+          "old_sense_id": "mwe:um beijo",
+          "old_gloss": "see ya!",
+          "new_sense_id": "en-beijo-pt-noun-pHq7ohBc",
+          "new_gloss": "kiss (touch with the lips)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_be4feee183effe8d1ba9553ae34ae01d",
+      "app_id": "be4feee1",
+      "word": "ficamos",
+      "rank": 1737,
+      "changed_published_examples": 4,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_db4b9d70834b5cd44147a879138acebd",
+          "target": "Ou ficamos com os dois, ou não vai funcionar.",
+          "english": "We either need to have both, or it's not going to work.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": null,
+          "new_gloss": null
+        },
+        {
+          "sentence_id": "sentence_c96ba4730fcd38f6d30a8ee0f859015e",
+          "target": "Nós ainda não ficamos sem água.",
+          "english": "We still haven't run out of water.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_0cd0b40eed1b8d8ba92e10cf40f8051c",
+          "target": "Nós ficamos por três noites.",
+          "english": "We stayed three nights.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_8746e0b018f6d1d65f71380d06cc35e7",
+      "app_id": "8746e0b0",
+      "word": "obra",
+      "rank": 2126,
+      "changed_published_examples": 7,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_f5d70d9ce3ffe91f456aaf42b2a672be",
+          "target": "O jardim dela é uma obra de arte.",
+          "english": "Her garden is a work of art.",
+          "old_sense_id": "mwe:obra de",
+          "old_gloss": "about; approximately",
+          "new_sense_id": "en-obra-pt-noun-l~E7ygPG",
+          "new_gloss": "work (literary, artistic, or intellectual production)"
+        },
+        {
+          "sentence_id": "sentence_ceab233a726280e2ebcdcd453ac6c189",
+          "target": "Uma obra de arte é um resultado único de um temperamento único.",
+          "english": "A work of art is the unique result of a unique temperament.",
+          "old_sense_id": "mwe:obra de",
+          "old_gloss": "about; approximately",
+          "new_sense_id": "en-obra-pt-noun-l~E7ygPG",
+          "new_gloss": "work (literary, artistic, or intellectual production)"
+        },
+        {
+          "sentence_id": "sentence_63ed487e6f3d79cf3845146c652824e9",
+          "target": "Comparado à obra de um celeiro, isto é uma brincadeira.",
+          "english": "Compared to barn raising, this is child's play.",
+          "old_sense_id": "mwe:obra de",
+          "old_gloss": "about; approximately",
+          "new_sense_id": "en-obra-pt-noun-CKgBPFDr",
+          "new_gloss": "construction (process of constructing, building)"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_592878303a85c477ff3efd2ce34230dc",
+      "app_id": "59287830",
+      "word": "ficado",
+      "rank": 2363,
+      "changed_published_examples": 3,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_2b71f63f78e08b382e1ae2f97c5f5019",
+          "target": "Eu deveria ter ficado um pouco mais.",
+          "english": "I should've stayed a little longer.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_9fd0b5cbe437e9cc5d0b92c9e98a6d49",
+          "target": "- Na casa de hóspedes. Tenho ficado lá enquanto a minha casa é renovada.",
+          "english": "I've been staying there while my house is being renovated.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_dae87c38e9100adfcbae3b8d98f35171",
+          "target": "Eu devia ter ficado.",
+          "english": "I should've stayed.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_eb51352d485b77e5e8990e00cca80f1e",
+      "app_id": "eb51352d",
+      "word": "ficava",
+      "rank": 2472,
+      "changed_published_examples": 4,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_27747b52ac2eb2c710f9493d560ff97e",
+          "target": "Nada ficava entre ti e o trabalho.",
+          "english": "Nothing came between you and the job.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_be_somewhere",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_a11c85b0a7f667f0add729d1098791de",
+          "target": "O armário ficava à esquerda da porta.",
+          "english": "The wardrobe stood to the left of the door.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_be_somewhere",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_f2e1de50ca24520e76cc58f2332a298b",
+          "target": "Se tivesse vendido a casa Manohar ficava sem nada.",
+          "english": "If he had sold the house, then Manohar would've been left with nothing.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_7fb126661ea765c3c6bb817e1e2d6433",
+      "app_id": "7fb12666",
+      "word": "ficarei",
+      "rank": 2552,
+      "changed_published_examples": 9,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_7b9d5c9d2e55c85c248dc709099af6bb",
+          "target": "Ficarei aqui se você realmente quer que eu fique.",
+          "english": "I'll stay here if you really want me to.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_9a702de2b628bac9b59ae28877873c08",
+          "target": "Tenho tanto trabalho que ficarei por mais uma hora.",
+          "english": "I have so much work that I will stay for one more hour.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_1a8b783fbdbd7a30a12fc9330b2afc4b",
+          "target": "Eu ficarei com isso, se você não se importar.",
+          "english": "I'll keep that if you don't mind.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": null,
+          "new_gloss": null
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_caa838d57b7be14cbf7b8291663ae113",
+      "app_id": "caa838d5",
+      "word": "fiques",
+      "rank": 2634,
+      "changed_published_examples": 11,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_35551bef1ae0d9ff548f7389f0eae3ca",
+          "target": "Mas até saber com certeza, preciso que fiques fora disto.",
+          "english": "But until I know for sure, I need you to stay out of it.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_778d37796b26fad93eb9edbde53e1d31",
+          "target": "Não quero que fiques aqui a me ver sofrer.",
+          "english": "I don't want you to stay here and watch me suffer.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_3903d84a7decd9f7c4550a17980f1009",
+          "target": "Quero que fiques calada por um minuto.",
+          "english": "I want you to be silent for one minute.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_181eb20b09698696fafa477a8904014f",
+      "app_id": "181eb20b",
+      "word": "ficaste",
+      "rank": 3227,
+      "changed_published_examples": 7,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_15aca58879b3dbef6bee96aff1184093",
+          "target": "Ficaste por tua conta, porque eu estava longe.",
+          "english": "You were on your own because I was away.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_db74dad1e3f5f8e3ba401a1119d15aa7",
+          "target": "Ficaste com algum do dinheiro da venda da tua casa.",
+          "english": "You've kept for yourself some of the money from the sale of your house.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": null,
+          "new_gloss": null
+        },
+        {
+          "sentence_id": "sentence_59e508484b862fc3d91bbbfb1b089a08",
+          "target": "Não me importa porquê ainda estás aqui... importa-me apenas que ficaste.",
+          "english": "Well, I don't care why you're here... only that you stayed.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_25dc897122012918ee10c4c1a511c99a",
+      "app_id": "25dc8971",
+      "word": "ficares",
+      "rank": 3875,
+      "changed_published_examples": 6,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_bb448b7f9638fc3970be0ad29364e54a",
+          "target": "Acho que seria sensato, ficares aqui durante mais um bocado.",
+          "english": "Think it would be wise if you stayed here a while.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_2aca5e1a83a81b9d8a91477b74e102ea",
+          "target": "Mais um motivo para tu ficares.",
+          "english": "More reasons for you to stay.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_a3046b1617bf29728b4e528da183942d",
+          "target": "Não há motivo para ficares nervoso.",
+          "english": "There's no reason to be nervous.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_21281dfdcb89a2d16bf07285330b966d",
+      "app_id": "21281dfd",
+      "word": "abraço",
+      "rank": 3896,
+      "changed_published_examples": 23,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_4236e68250545579e8c14316f5415ab0",
+          "target": "E não me estão a tentar dar um abraço.",
+          "english": "Yeah, and they're not trying to give me hugs.",
+          "old_sense_id": "mwe:um abraço",
+          "old_gloss": "see ya!",
+          "new_sense_id": "en-abraço-pt-noun-FoYmXoic",
+          "new_gloss": "hug, embrace"
+        },
+        {
+          "sentence_id": "sentence_f7a7c5f0210eb18b79482a51585b270f",
+          "target": "Bom, você me dará um abraço e um beijo?",
+          "english": "Well, are you going to give me a hug and a kiss?",
+          "old_sense_id": "mwe:um abraço",
+          "old_gloss": "see ya!",
+          "new_sense_id": "en-abraço-pt-noun-FoYmXoic",
+          "new_gloss": "hug, embrace"
+        },
+        {
+          "sentence_id": "sentence_169d3942f1cf6deef8c2f1214f972aa1",
+          "target": "Você se importaria em me dar um abraço?",
+          "english": "Would you mind giving me a hug?",
+          "old_sense_id": "mwe:um abraço",
+          "old_gloss": "see ya!",
+          "new_sense_id": "en-abraço-pt-noun-FoYmXoic",
+          "new_gloss": "hug, embrace"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_149c1a5648a637f28d50137b1d618a68",
+      "app_id": "149c1a56",
+      "word": "ficasse",
+      "rank": 3991,
+      "changed_published_examples": 9,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_4619bd3f8735f7f9d93d787053aaab94",
+          "target": "Ela pediu que eu ficasse até que a mãe dela viesse para casa.",
+          "english": "She asked me to stay till her mother came home.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_e457f0c0a9c0fa13486b1002f13c07bd",
+          "target": "Ele me fez um sinal para que eu ficasse quieto.",
+          "english": "He gave me a sign to keep quiet.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_e28cc4a59403d90be6cfae355db66b4d",
+          "target": "Ela lhe suplicou que ficasse um pouco mais.",
+          "english": "She pleaded with him to stay a little bit longer.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_8361057f4a23300e5e1e9a47a55f4e69",
+      "app_id": "8361057f",
+      "word": "ficarmos",
+      "rank": 4167,
+      "changed_published_examples": 14,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_03531de4b027b40022987b4fd12880a9",
+          "target": "A única ordem que recebi foi para ficarmos quietos até novas ordens.",
+          "english": "Only order I got was to stand down until further instructed.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_3cd4c9298200be80a86b27171e3dfeee",
+          "target": "Se não ficarmos junto, então estaremos todos sós.",
+          "english": "If we don't stand together, then we're all alone.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_stay_at",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_c911ea1de06b8cd3abb2e6aa5675c8dc",
+          "target": "Porque, quanto mais tempo ficarmos aqui, pior isto vai parecer.",
+          "english": "Because the longer we stay here, the worse this is gonna look.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_2f7a278e6e320cbc92194492515b6c79",
+      "app_id": "2f7a278e",
+      "word": "ficarem",
+      "rank": 4255,
+      "changed_published_examples": 13,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_bb992c3bdfb0ccc1957f3bc52b8718bc",
+          "target": "Só tens de escolher três dos teus amigos para ficarem aqui.",
+          "english": "All you need to do is choose three of your friends to stay here.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_dbf5dcbbfb8e4ca27289fac0c6c3ac49",
+          "target": "A polícia está a dizer para todos ficarem longe.",
+          "english": "Police are telling people just to stay away.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_efb8f0ffe96373f6d9a3c0f6a745ccec",
+          "target": "Não há forma dos dois exércitos ficarem unidos.",
+          "english": "There is no way the two armies can easily rejoin.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_bb81ba2b9061c64e665b8a481e5baf66",
+      "app_id": "bb81ba2b",
+      "word": "ficaremos",
+      "rank": 4273,
+      "changed_published_examples": 14,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_0a804fb7cdc682f35a98940c0f8340b2",
+          "target": "Não, não, não, acho que ficaremos bem com uma garrafa.",
+          "english": "-We don't have to. No, no, no, I think we'll be okay with one bottle.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_55d0200223a6c3cdd67a8602755bf1e0",
+          "target": "Quero saber por quanto tempo ficaremos aqui.",
+          "english": "I want to know how long we're going to be here.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_8d4f0171a8c8c0bca1836950bedfabe6",
+          "target": "Mas é muito duro agora... sabendo que nunca ficaremos juntos.",
+          "english": "But it's too hard now... knowing we'll never be together.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_aea916d2eef7ec935af3374e46a5eca8",
+      "app_id": "aea916d2",
+      "word": "ficarão",
+      "rank": 4441,
+      "changed_published_examples": 1,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_1f199c67fda270bfad8ed30eb8dab146",
+          "target": "Todas as ruas ao redor do incidente... ficarão fechadas até um novo aviso.",
+          "english": "Be advised, all roads surrounding the incident will be closed until further notice.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_2151d92ab0bddb38099b3b12fc675194",
+      "app_id": "2151d92a",
+      "word": "ficámos",
+      "rank": 5610,
+      "changed_published_examples": 12,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_727d3bc79aeae561cea106cc9a66b0c0",
+          "target": "Bem, parece que ficámos sem estrada e eles não estão aqui.",
+          "english": "Well, looks like we've run out of road and they ain't here.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_c9fd18da6dc2b99603865cd7114a7250",
+          "target": "Durante anos ficámos escondidos entre vocês, a observar, à espera.",
+          "english": "For years we have remained hidden amongst you, watching, waiting.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_b9af314db70daf80798741f8d7164333",
+          "target": "O nosso avião foi forçado a aterrar e ficámos retidos aqui.",
+          "english": "Our plane was forced to land and we're stranded here.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_c5bcbbd6bb65f818463fab6a55cd4d62",
+      "app_id": "c5bcbbd6",
+      "word": "faixa",
+      "rank": 6285,
+      "changed_published_examples": 6,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_b01234a7686a6016a0f16d769fdf8674",
+          "target": "Impala vermelho, às minhas 10, na faixa da esquerda.",
+          "english": "Red Impala, two lanes over, on my ten.",
+          "old_sense_id": "mwe:na faixa",
+          "old_gloss": "for free; freebie",
+          "new_sense_id": "en-faixa-pt-noun-u8HLKGaq",
+          "new_gloss": "lane (on a road)"
+        },
+        {
+          "sentence_id": "sentence_9b6789af2eb5492056699b3be4817359",
+          "target": "O Yanni está na faixa da direita.",
+          "english": "Yanni is in the right lane.",
+          "old_sense_id": "mwe:na faixa",
+          "old_gloss": "for free; freebie",
+          "new_sense_id": "en-faixa-pt-noun-u8HLKGaq",
+          "new_gloss": "lane (on a road)"
+        },
+        {
+          "sentence_id": "sentence_56f12c81b9418c9bf10cc71b2162fba8",
+          "target": "Eu escorreguei e caí na faixa de pedestres, bem quando o sinal ficou vermelho.",
+          "english": "I slipped and fell on the crosswalk, just when the light turned red.",
+          "old_sense_id": "mwe:na faixa",
+          "old_gloss": "for free; freebie",
+          "new_sense_id": "en-faixa_de_pedestres-pt-noun-tOFQzeUs",
+          "new_gloss": "Brazil"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_48287ed5b849de2909690e1da0386b0c",
+      "app_id": "48287ed5",
+      "word": "ficarás",
+      "rank": 7243,
+      "changed_published_examples": 16,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_75f2000fd2cb02b7c2083a6a57157e7a",
+          "target": "Estás a dizer que ficarás longe do perigo por causa de mim.",
+          "english": "You... you mean safe from me.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_stay_at",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_b97ed26dcef8b34ed56ee35150da44a7",
+          "target": "Se continuares com isto farei com que tu ficarás aqui permanentemente.",
+          "english": "You keep this up, and I will see to it that you stay here permanently.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_8ce4195f44bd31324dbc779007da418e",
+          "target": "Prometo, aconteça o que acontecer, nunca mais ficarás sozinha.",
+          "english": "I promise... whatever happens, you'll never be alone again.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_76cdfc915d9c1e9cb00b051b8fe29a79",
+      "app_id": "76cdfc91",
+      "word": "capela",
+      "rank": 7817,
+      "changed_published_examples": 5,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_2c8c898c19bdde6b4787579e341cdbe8",
+          "target": "A vinda à capela é o evento mais religioso da semana.",
+          "english": "Chapel, the most pious day of the week.",
+          "old_sense_id": "mwe:à capela",
+          "old_gloss": "a cappella",
+          "new_sense_id": "en-capela-pt-noun--P9NdfRw",
+          "new_gloss": "religion"
+        },
+        {
+          "sentence_id": "sentence_77e0d3e81b982cd83757a259c5e97c31",
+          "target": "Podem estar mais dois bilhetes no corredor junto à capela.",
+          "english": "There might be two more in the hall by the chapel.",
+          "old_sense_id": "mwe:à capela",
+          "old_gloss": "a cappella",
+          "new_sense_id": "en-capela-pt-noun--P9NdfRw",
+          "new_gloss": "religion"
+        },
+        {
+          "sentence_id": "sentence_26f2f70cb45f082c6201695973bf7236",
+          "target": "Diz ao Sunny para ir ter comigo à capela.",
+          "english": "Have Sunny meet me in the chapel.",
+          "old_sense_id": "mwe:à capela",
+          "old_gloss": "a cappella",
+          "new_sense_id": "en-capela-pt-noun--P9NdfRw",
+          "new_gloss": "religion"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_449bb30166c661a5a0f77b01e8f3ce39",
+      "app_id": "449bb301",
+      "word": "ficavam",
+      "rank": 8844,
+      "changed_published_examples": 8,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_0fdc73fbd4d4e506b4b69e8c8d6c5a61",
+          "target": "Achei que os escritores ficavam ocupados escrevendo ao invés de falar.",
+          "english": "I was rather under the impression that writers were busy writing rather than talking.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_4ada42c30e7b90cf33338a5bcfc89016",
+          "target": "Os rapazes de azul nunca ficavam a saber.",
+          "english": "Boys in blue never knew.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_a44975937d5f23ab517ca3968cef5ce9",
+          "target": "Tens pessoas próximas que não ficavam contentes se soubessem o que sei.",
+          "english": "There are people close to you that wouldn't be happy if they knew what I know.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_f9fcec533a437323be366c0420f75df5",
+      "app_id": "f9fcec53",
+      "word": "ficariam",
+      "rank": 9165,
+      "changed_published_examples": 6,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_6caf6370948f5d866b6e5d5704a4d659",
+          "target": "E nenhum de ambos jamais deixou de acreditar que ficariam juntos.",
+          "english": "And neither of them ever stopped believing they would be together.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_a433ffb9409f53ceef81e3b24302c800",
+          "target": "Tom e Mary me disseram que não ficariam por muito tempo.",
+          "english": "Tom and Mary told me that they wouldn't stay long.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_6894c3b7ec82dc9db930fb599d20e546",
+          "target": "Não ficariam se soubessem que criei uma coisa como o Prometheus.",
+          "english": "They might not be proud if they knew that I created something like Prometheus.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_fe05de8a66f130bdc0111a6cd49f7968",
+      "app_id": "fe05de8a",
+      "word": "fiquemos",
+      "rank": 9308,
+      "changed_published_examples": 15,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_08bc16d20361e2fc40c0319319306400",
+          "target": "Quer que fiquemos por aqui mais um pouco?",
+          "english": "Would you like us to stick around for a while?",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_4bcd1b256be45f7129c4991460357e56",
+          "target": "Vou repetir, para que ambos fiquemos sem a mínima dúvida sobre isso.",
+          "english": "I'll say that again so we're both absolutely clear about it.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_0c278f078d5f018b5953ce3df24807da",
+          "target": "Só tu e eu queremos que fiquemos juntos.",
+          "english": "It's only you and I who want us to be together.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        }
+      ]
+    },
+    {
+      "card_id": "card_pt_a927c11be902b231d361a0194f4b87d2",
+      "app_id": "a927c11b",
+      "word": "ficarias",
+      "rank": 9788,
+      "changed_published_examples": 9,
+      "sample_changes": [
+        {
+          "sentence_id": "sentence_18b60f1f4beee2f5e204fc823512f937",
+          "target": "Não ficarias tão zangada se o que estou a dizer não fosse verdade.",
+          "english": "Well, you wouldn't be so upset unless what I was saying was true.",
+          "old_sense_id": "en-ficar-pt-verb-pt:not_to_go_further",
+          "old_gloss": "figurative, intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        },
+        {
+          "sentence_id": "sentence_1f1cedc2c9a390b24dbbc51833da7358",
+          "target": "Tu disseste que ficarias longe durante um tempo, mas não disseste que seriam meses.",
+          "english": "You said you'd be gone for a little while. Y-You didn't say you'd be gone for months.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_remain_in_a_place",
+          "new_gloss": "intransitive"
+        },
+        {
+          "sentence_id": "sentence_732d8512daea8624c557afa116784370",
+          "target": "E se ele nunca mais voltasse, tu ficarias bem.",
+          "english": "Right, and if he never came back, you'd be fine.",
+          "old_sense_id": "en-ficar-pt-verb-pt:to_be_left_over",
+          "old_gloss": "intransitive",
+          "new_sense_id": "en-ficar-pt-verb-pt:to_become",
+          "new_gloss": "copulative"
+        }
+      ]
+    }
+  ]
+}

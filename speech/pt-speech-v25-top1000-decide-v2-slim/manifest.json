@@ -1,0 +1,33 @@
+{
+ "app_contract": {
+  "conjugations_content_id": "sha256:0ec5eaa721edeec77a4b828d6c5ea832dcee2b7943d017858a6dff9c1a8a30a7",
+  "conjugations_path": "app/conjugations.json",
+  "contract_version": "fluency-split-speech/v1",
+  "examples_content_id": "sha256:de6270d13cd29df6f7107ca5e702a5e1ecae051064b33f305b7d6f473772eea9",
+  "examples_path": "app/vocabulary.examples.json",
+  "index_content_id": "sha256:d702c6baaaf4b7d98b255063c37903b761af2952eb2516051a8d420ef8cefec3",
+  "index_path": "app/vocabulary.index.json",
+  "sense_metadata_contract": "sense-metadata/v1",
+  "study_structure_content_id": "sha256:b48deed050fe16e522692aa545b003399d4824ef3757e4e75a53c173ac955b21",
+  "study_structure_path": "app/study-structure.json"
+ },
+ "card_count": 1000,
+ "composition_content_id": "sha256:d43b48313752049b8e6f2a64bcfc03b2076150aa67c6bfc49943695b655be093",
+ "composition_path": "composition.json",
+ "created_at": "2026-10-25T21:59:14.487867Z",
+ "deck_content_id": "sha256:506e994c931171e3d916fa8afec7203e647de33aedf7462c8fbbb7f22dc20ca1",
+ "deck_path": "deck.json",
+ "language": "pt",
+ "locale": "pt-PT",
+ "manifest_version": "release-manifest/v1",
+ "metadata_contract": "sense-metadata/v1",
+ "mode": "speech",
+ "progress_namespace": "pt-speech-next",
+ "publication_status": "inactive_audit",
+ "release_id": "pt-speech-v25-top1000-decide-v2-slim",
+ "wsd": {
+  "enabled": true,
+  "source_id": "20261025T215847Z-2903e0bf",
+  "status": "selected"
+ }
+}
